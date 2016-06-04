@@ -1,169 +1,169 @@
 @namespace url(http://www.w3.org/1999/xhtml);
- 
- @-moz-document url-prefix("https://us-mg4.mail.yahoo.com") {
-     #mobilizer{
-             display: none;
-	         }
-		     #yucs-top-bar{
-		            display: none;
-			        }
-				    #yucs-web_search_button_wrapper{
-				            display: none;
-					        }
-						    html, html:after{
-						            background: #1C1C1C;
-							        }
-								    .list-view-item-container{
-								            background: #2C2C2C;
-									        }
-										    .list-view-item-container .selected{
-										            background: #3C3C3C;
-											        }
-												    .info-unread:before, #ac-search-results .as-item #as-button, .search-ac .as-item #as-button{
-												            color: #1B7FCC;
-													        }
-														    .cbox input + span:before{
-														            color: #DCDCCC;
-															        }
-																    .list-view-item{
-																            color: #DCDCCC;
-																	        }
-																		    body #main #inboxcontainer{
-																		            border-top: 1px #000 solid;
-																			            top: 36px;
-																				        }
-																					    #shellnavigation, #shellinner{
-																					            border-top: 1px #000 solid;
-																						        }
-																							    #shellnavigation-inner{
-																							            border-bottom: 1px #000 solid;
-																								        }
-																									    #shellcontent{
-																									            border-left: 1px #000 solid;
-																										        }
-																											    #nav{
-																											            display: none;
-																												        }
-																													    .yucs-mail #yucs .yucs-vsearch-button{
-																													            background: #3C3C3C !important;
-																														            color: #DCDCCC;
-																															            border: none !important;
-																																            border-radius: 0 !important;
-																																	            box-shadow: none !important;
-																																		            padding: 0 0 0 0 !important;
-																																			        }
-																																				    .yucs-search-buttons{
-																																				            margin-left: 0px !important;
-																																					        }
-																																						    .lt .yucs-search-buttons, .lt .yucs-search-buttons div, .lt .yucs-search-buttons button{
-																																						            height: 33px;
-																																							        }
-																																								    #yucs-search .yucs-search-input{
-																																								            background: #0c0c0c;
-																																									            color: #DCDCCC;
-																																										        }
-																																											    #ac-search-results .as-item, .search-ac .as-item, .search-ac .yui3-aclist-content .yui3-aclist-item, #web-search-header, .recent-searches-header, .recent-search-item, .ac-results, .optionMenu, #ac-search-results .as-item, .search-ac .as-item, .search-ac .yui3-aclist-content .yui3-aclist-item, #web-search-header, .recent-searches-header, .recent-search-item, .ac-results{
-																																											            background: #0c0c0c !important;
-																																												            color: #DCDCCC;
-																																													        }
-																																														    .cm-to-field{
-																																														            background: none;
-																																															            color: #DCDCCC;
-																																																        }
-																																																	    .lozenge-static{
-																																																	            color: #FFF;
-																																																		        }
-																																																			    .compose-header .cm-cc-group, .compose-header .cm-bcc-group, .compose-header .subject{
-																																																			            border-top: 1px #000 solid;
-																																																				        }
-																																																					    .compose-header{
-																																																					            border-bottom: 1px #000 solid !important;
-																																																						        }
-																																																							    .compose-message .inner{
-																																																							            right: 0px;
-																																																								            margin: 0 0 0 0;
-																																																									            padding: 10px 0 10px 10px;
-																																																										        }
-																																																											    .cm-subject-field{
-																																																											            color: #DCDCCC;
-																																																												        }
-																																																													    #shellcontent .compose .footer-separator{
-																																																													            border: none;
-																																																														        }
-																																																															   
-																																																															       .lozenge-error{
-																																																															               color: #d2322d;
-																																																																               background: none;
-																																																																	               font-weight: bold;
-																																																																		           }
-																																																																			       .ac-results{
-																																																																			               top: 0px !important;
-																																																																				           }
-																																																																					       .menu-active-item{
-																																																																					               background: #1c1c1c !important;
-																																																																						           }
-																																																																							       body, .btn input, .items a, .list-view a, .result a, .nf-text, .msg-loadingpane .message, .conv-loadingpane .message, .list-view-item .icon, .mb-list-ad .icon{
-																																																																							               color: #DCDCCC !important;
-																																																																								           }
-																																																																									       .optionMenu li a, .optionMenu li i, .optionMenu .menu-group .group-title, .optionMenu .menu-group em, .optionMenu .icon, .optionMenu .optionMenuItem{
-																																																																									               color: #DCDCCC !important;
-																																																																										           }
-																																																																											      
-																																																																											          .menu-active-item, .optionMenu li:hover, .optionMenu .optionMenuItem:hover, .dd-hLozengeBox, .search-ac .yui3-aclist-item.yui3-aclist-item-hover, .search-ac .yui3-aclist-item.yui3-aclist-item-active{
-																																																																												         
-																																																																													     }
-																																																																													         .search-ac .yui3-aclist-content, .ac-results{
-																																																																														         border: none;
-																																																																															         width: 516px;
-																																																																																     }
-																																																																																        
-																																																																																	    .ac-results{
-																																																																																	            top: -12px;
-																																																																																		        }
-																																																																																			   
-																																																																																			       #Compose .btn i{
-																																																																																			               display: none;
-																																																																																				           }
-																																																																																					      
-																																																																																					          #Compose .btn{
-																																																																																						          left: 10px;
-																																																																																							      }
-																																																																																							         
-																																																																																								     .icon-delete, .icon-move:before, .icon-spam, .icon-more:before, .sp, .yucs-avatar{
-																																																																																								             visibility: hidden;
-																																																																																									         }
-																																																																																										     #shellnavigation, #shellcontent.no-tabs #shellinner, #theAd, .frost-btn, .frost-container{
-																																																																																										             top: 0;
-																																																																																											         }
-																																																																																												     .primary-property-btn, #toolbar{
-																																																																																												             background: #2C2C2C;
-																																																																																													         }
-																																																																																														     .listnav > li.selected > .btn, .listnav > li .btn:hover, .listnav > li .btn:focus, .listnav > li .listnav-folder li:hover, .listnav > li .listnav-folder li a:focus, .listnav > li .listnav-folder .selected, .listnav > li .listnav-multitask .active, .listnav > li .listnav-multitask .t-el:hover, .listnav > li .listnav-multitask .t-el a:focus, .listnav > li .listnav-multitask .t-learn-more, .listnav > li .listnav-item:hover, .listnav > li .itemlist > *:hover, .listnav > li.popping span, .listnav > li.popping i:before, .listnav > li li.popping, .listnav > li li.popping:hover{
-																																																																																														             color: #1B7FCC;
-																																																																																															         }
-																																																																																																     #msg-list{
-																																																																																																            background-color: #2C2C2C;
-																																																																																																	        }
-																																																																																																		    .list-view-item, #masSearchAd, .mb-list-ad, #searchNav .alert, .refinement-top-bar{
-																																																																																																		            border-bottom: 1px #1C1C1C solid;
-																																																																																																			        }
-																																																																																																				    #ac-search-results .as-item, .search-ac .as-item{
-																																																																																																				            border: none;
-																																																																																																					        }
-																																																																																																						    .wide-right-rail #shellcontent{
-																																																																																																						            right: 0px;
-																																																																																																							        }
-																																																																																																								    .yuhead-name{
-																																																																																																								            visibility: hidden !important;
-																																																																																																									        }
-																																																																																																										    .yuhead-name:before{
-																																																																																																										            visibility: visible;
-																																																																																																											            content: "Account";
-																																																																																																												            vertical-align: middle;
-																																																																																																													        }
-																																																																																																														    #shellcontent .compose, #shellinner{
-																																																																																																														            background: #2c2c2c;
-																																																																																																															        }
-																																																																																																																   
-																																																																																																																      
-																																																																																																																      }
+
+@-moz-document url-prefix("https://us-mg4.mail.yahoo.com") {
+	#mobilizer{
+		display: none;
+	}
+	#yucs-top-bar{
+		display: none;
+	}
+	#yucs-web_search_button_wrapper{
+		display: none;
+	}
+	html, html:after{
+		background: #1C1C1C;
+	}
+	.list-view-item-container{
+		background: #2C2C2C;
+	}
+	.list-view-item-container .selected{
+		background: #3C3C3C;
+	}
+	.info-unread:before, #ac-search-results .as-item #as-button, .search-ac .as-item #as-button{
+		color: #1B7FCC;
+	}
+	.cbox input + span:before{
+		color: #DCDCCC;
+	}
+	.list-view-item{
+		color: #DCDCCC;
+	}
+	body #main #inboxcontainer{
+		border-top: 1px #000 solid;
+		top: 36px;
+	}
+	#shellnavigation, #shellinner{
+		border-top: 1px #000 solid;
+	}
+	#shellnavigation-inner{
+		border-bottom: 1px #000 solid;
+	}
+	#shellcontent{
+		border-left: 1px #000 solid;
+	}
+	#nav{
+		display: none;
+	}
+	.yucs-mail #yucs .yucs-vsearch-button{
+		background: #3C3C3C !important;
+		color: #DCDCCC;
+		border: none !important;
+		border-radius: 0 !important;
+		box-shadow: none !important;
+		padding: 0 0 0 0 !important;
+	}
+	.yucs-search-buttons{
+		margin-left: 0px !important;
+	}
+	.lt .yucs-search-buttons, .lt .yucs-search-buttons div, .lt .yucs-search-buttons button{
+		height: 33px;
+	}
+	#yucs-search .yucs-search-input{
+		background: #0c0c0c;
+		color: #DCDCCC;
+	}
+	#ac-search-results .as-item, .search-ac .as-item, .search-ac .yui3-aclist-content .yui3-aclist-item, #web-search-header, .recent-searches-header, .recent-search-item, .ac-results, .optionMenu, #ac-search-results .as-item, .search-ac .as-item, .search-ac .yui3-aclist-content .yui3-aclist-item, #web-search-header, .recent-searches-header, .recent-search-item, .ac-results{
+		background: #0c0c0c !important;
+		color: #DCDCCC;
+	}
+	.cm-to-field{
+		background: none;
+		color: #DCDCCC;
+	}
+	.lozenge-static{
+		color: #FFF;
+	}
+	.compose-header .cm-cc-group, .compose-header .cm-bcc-group, .compose-header .subject{
+		border-top: 1px #000 solid;
+	}
+	.compose-header{
+		border-bottom: 1px #000 solid !important;
+	}
+	.compose-message .inner{
+		right: 0px;
+		margin: 0 0 0 0;
+		padding: 10px 0 10px 10px;
+	}
+	.cm-subject-field{
+		color: #DCDCCC;
+	}
+	#shellcontent .compose .footer-separator{
+		border: none;
+	}
+
+	.lozenge-error{
+		color: #d2322d;
+		background: none;
+		font-weight: bold;
+	}
+	.ac-results{
+		top: 0px !important;
+	}
+	.menu-active-item{
+		background: #1c1c1c !important;
+	}
+	body, .btn input, .items a, .list-view a, .result a, .nf-text, .msg-loadingpane .message, .conv-loadingpane .message, .list-view-item .icon, .mb-list-ad .icon{
+		color: #DCDCCC !important;
+	}
+	.optionMenu li a, .optionMenu li i, .optionMenu .menu-group .group-title, .optionMenu .menu-group em, .optionMenu .icon, .optionMenu .optionMenuItem{
+		color: #DCDCCC !important;
+	}
+
+	.menu-active-item, .optionMenu li:hover, .optionMenu .optionMenuItem:hover, .dd-hLozengeBox, .search-ac .yui3-aclist-item.yui3-aclist-item-hover, .search-ac .yui3-aclist-item.yui3-aclist-item-active{
+
+	}
+	.search-ac .yui3-aclist-content, .ac-results{
+		border: none;
+		width: 516px;
+	}
+
+	.ac-results{
+		top: -12px;
+	}
+
+	#Compose .btn i{
+		display: none;
+	}
+
+	#Compose .btn{
+		left: 10px;
+	}
+
+	.icon-delete, .icon-move:before, .icon-spam, .icon-more:before, .sp, .yucs-avatar{
+		visibility: hidden;
+	}
+	#shellnavigation, #shellcontent.no-tabs #shellinner, #theAd, .frost-btn, .frost-container{
+		top: 0;
+	}
+	.primary-property-btn, #toolbar{
+		background: #2C2C2C;
+	}
+	.listnav > li.selected > .btn, .listnav > li .btn:hover, .listnav > li .btn:focus, .listnav > li .listnav-folder li:hover, .listnav > li .listnav-folder li a:focus, .listnav > li .listnav-folder .selected, .listnav > li .listnav-multitask .active, .listnav > li .listnav-multitask .t-el:hover, .listnav > li .listnav-multitask .t-el a:focus, .listnav > li .listnav-multitask .t-learn-more, .listnav > li .listnav-item:hover, .listnav > li .itemlist > *:hover, .listnav > li.popping span, .listnav > li.popping i:before, .listnav > li li.popping, .listnav > li li.popping:hover{
+		color: #1B7FCC;
+	}
+	#msg-list{
+		background-color: #2C2C2C;
+	}
+	.list-view-item, #masSearchAd, .mb-list-ad, #searchNav .alert, .refinement-top-bar{
+		border-bottom: 1px #1C1C1C solid;
+	}
+	#ac-search-results .as-item, .search-ac .as-item{
+		border: none;
+	}
+	.wide-right-rail #shellcontent{
+		right: 0px;
+	}
+	.yuhead-name{
+		visibility: hidden !important;
+	}
+	.yuhead-name:before{
+		visibility: visible;
+		content: "Account";
+		vertical-align: middle;
+	}
+	#shellcontent .compose, #shellinner{
+		background: #2c2c2c;
+	}
+
+
+}

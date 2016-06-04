@@ -1,527 +1,527 @@
 @namespace url(http://www.w3.org/1999/xhtml);
- 
- @-moz-document domain("www.pandora.com") {
-  
-    #mainContainer{
-     
-           background-image: url("") !important;
-	    
-	          background-color: #222222 !important;
-		   
-		         height: 900px !important;
-			  
-			    }
-			     
-			       #mainContent{
-			        
-				      background-color: #444444 !important;
-				       
-				             border-bottom: 1px solid #000000 !important;
-					      
-					            border-right: 1px solid #000000 !important;
-						     
-						       }
-						        
-							  .contentnav{
-							   
-							         background-color: #333333 !important;
-								  
-								        border-right: 1px solid #000000 !important;
-									 
-									   }
-									    
-									      .contentContainer .top{
-									       
-									             background-color: #333333 !important;
-										      
-										            border-top: 1px solid #000000 !important;
-											     
-											           border-right: 1px solid #000000 !important;
-												    
-												      }
-												       
-												         #splash{
-													  
-													        background-image: none !important;
-														 
-														       background-color: #222222 !important;
-														        
-															  }
-															   
-															     .detail{
-															      
-															            background-color: #444444 !important;
-																     
-																           color: #FFFFFF !important;
-																	    
-																	      }
-																	       
-																	         #trackInfo{
-																		  
-																		        background-color: #333333 !important;
-																			 
-																			       border-bottom: 1px solid #000000 !important;
-																			        
-																				      border-left: 1px solid #000000 !important;
-																				       
-																				             border-top: 1px solid #000000 !important;
-																					      
-																					        }
-																						 
-																						   #trackInfo .info a{
-																						    
-																						          color: #61B7CF !important;
-																							   
-																							     }
-																							      
-																							        #trackInfo .info{
-																								 
-																								       text-shadow: -1px 1px #000000 !important;
-																								        
-																									      color: #BBBBBB !important;
-																									       
-																									         }
-																										  
-																										    #trackInfoButtons{
-																										     
-																										           display: none !important;
-																											    
-																											      }
-																											       
-																											         #playerBar{
-																												  
-																												        background: url("") repeat-x scroll 0 0 rgba(0, 0, 0, 0) !important;
-																													 
-																													       background-color: #333333 !important;
-																													        
-																														      border-bottom: 1px solid #000000 !important;
-																														       
-																														             border-top: 1px solid #000000 !important;
-																															      
-																															        }
-																																 
-																																   #playerBar .highlight{
-																																    
-																																          background: url("") repeat-x scroll 0 0 rgba(0, 0, 0, 0) !important;
-																																	   
-																																	     }
-																																	      
-																																	        #currentSlideArrow{
-																																		 
-																																		       display: none !important;
-																																		        
-																																			  }
-																																			   
-																																			     .stationContent #promobox{
-																																			      
-																																			            display: none !important;
-																																				     
-																																				       }
-																																				        
-																																					  .platformPromo{
-																																					   
-																																					         display: none !important;
-																																						  
-																																						    }
-																																						     
-																																						       .stationListHolder{
-																																						        
-																																							      height: 700px !important;
-																																							       
-																																							         }
-																																								  
-																																								    .jspContainer{
-																																								     
-																																								           overflow: visible !important;
-																																									    
-																																									      }
-																																									       
-																																									         .stationContent{
-																																										  
-																																										        background: none repeat scroll 0 0 #333333 !important;
-																																											 
-																																											       border-right: 1px solid #000000 !important;
-																																											        
-																																												  }
-																																												   
-																																												     .home .homeRightSide{
-																																												      
-																																												            background-color: #444444 !important;
-																																													     
-																																													       }
-																																													        
-																																														  .stationListItem{
-																																														   
-																																														         border-bottom: 1px solid #000000 !important;
-																																															  
-																																															        border-top: none !important;
-																																																 
-																																																       padding-bottom: 5px !important;
-																																																        
-																																																	  }
-																																																	   
-																																																	     .stationListItem .stationName{
-																																																	      
-																																																	            color: #61B7CF !important;
-																																																		     
-																																																		           text-shadow: -1px 1px #000000 !important;
-																																																			    
-																																																			      }
-																																																			       
-																																																			         .stationListItem.selected{
-																																																				  
-																																																				        background: url("") repeat-x scroll center top #444444 !important;
-																																																					 
-																																																					       border-top: none !important;
-																																																					        
-																																																						      border-bottom: 1px solid #000000 !important;
-																																																						       
-																																																						             padding-bottom: 0px !important;
-																																																							      
-																																																							        }
-																																																								 
-																																																								   .btn_bg_sort{
-																																																								    
-																																																								          background-color: #444444 !important;
-																																																									   
-																																																									         background-image: none !important;
-																																																										  
-																																																										        color: #FFFFFF !important;
-																																																											 
-																																																											       text-shadow: -1px 1px #000000 !important;
-																																																											        
-																																																												  }
-																																																												   
-																																																												     .btn_bg_sort.selected{
-																																																												      
-																																																												            background-color: #555555 !important;
-																																																													     
-																																																													           background-image: none !important;
-																																																														    
-																																																														      }
-																																																														       
-																																																														         #stationSortDate, #stationSortAlpha{
-																																																															  
-																																																															        border-color: #000000 !important;
-																																																																 
-																																																																   }
-																																																																    
-																																																																      .stationListItem .options{
-																																																																       
-																																																																             background-color: #555555 !important;
-																																																																	      
-																																																																	            border-top: 1px solid #000000 !important;
-																																																																		     
-																																																																		       }
-																																																																		        
-																																																																			  .stationName_hover{
-																																																																			   
-																																																																			         background-color: #555555 !important;
-																																																																				  
-																																																																				    }
-																																																																				     
-																																																																				       .stationListItem .option{
-																																																																				        
-																																																																					      color: #BBBBBB !important;
-																																																																					       
-																																																																					         }
-																																																																						  
-																																																																						    .stationListItem .option.addVariety{
-																																																																						     
-																																																																						           border-right: 1px solid #000000 !important;
-																																																																							    
-																																																																							      }
-																																																																							       
-																																																																							         .adSupported-layout .contentContainer{
-																																																																								  
-																																																																								        float: none !important;
-																																																																									 
-																																																																									   }
-																																																																									    
-																																																																									      #ad_container{
-																																																																									       
-																																																																									             display: none !important;
-																																																																										      
-																																																																										            float: none !important;
-																																																																											     
-																																																																											       }
-																																																																											        
-																																																																												  #adLayout{
-																																																																												   
-																																																																												         left: -30px !important;
-																																																																													  
-																																																																													    }
-																																																																													     
-																																																																													       #footer{
-																																																																													        
-																																																																														      left: 152px !important;
-																																																																														       
-																																																																														             display: none !important;
-																																																																															      
-																																																																															        }
-																																																																																 
-																																																																																   #main{
-																																																																																    
-																																																																																          background-image: url("") !important;
-																																																																																	   
-																																																																																	         background-color: #222222 !important;
-																																																																																		  
-																																																																																		    }
-																																																																																		     
-																																																																																		       #playerBar .pauseButton a:link, #playerBar .pauseButton a:visited{
-																																																																																		        
-																																																																																			      background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
-																																																																																			       
-																																																																																			             background-size: 128px 128px !important;
-																																																																																				      
-																																																																																				            background-repeat:no-repeat !important;
-																																																																																					     
-																																																																																					           background-position: 0px -40px !important;
-																																																																																						    
-																																																																																						          width: 25px !important;
-																																																																																							   
-																																																																																							         height: 47px;
-																																																																																								  
-																																																																																								    }
-																																																																																								     
-																																																																																								       #playerBar .pauseButton{
-																																																																																								        
-																																																																																									      background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
-																																																																																									       
-																																																																																									             background-size: 128px 128px !important;
-																																																																																										      
-																																																																																										            background-repeat:no-repeat !important;
-																																																																																											     
-																																																																																											           background-position: 0px -40px !important;
-																																																																																												    
-																																																																																												          width: 25px !important;
-																																																																																													   
-																																																																																													         height: 47px;
-																																																																																														  
-																																																																																														    }
-																																																																																														     
-																																																																																														      
-																																																																																														       
-																																																																																														         #playerBar .playButton a:link, #playerBar .playButton a:visited{
-																																																																																															  
-																																																																																															        background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
-																																																																																																 
-																																																																																																       background-size: 128px 128px !important;
-																																																																																																        
-																																																																																																	      background-repeat:no-repeat !important;
-																																																																																																	       
-																																																																																																	             background-position: -52px -40px !important;
-																																																																																																		      
-																																																																																																		            width: 25px !important;
-																																																																																																			     
-																																																																																																			           height: 47px;
-																																																																																																				    
-																																																																																																				      }
-																																																																																																				       
-																																																																																																				         #playerBar .playButton{
-																																																																																																					  
-																																																																																																					        background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
-																																																																																																						 
-																																																																																																						       background-size: 128px 128px !important;
-																																																																																																						        
-																																																																																																							      background-repeat:no-repeat !important;
-																																																																																																							       
-																																																																																																							             background-position: -52px -40px !important;
-																																																																																																								      
-																																																																																																								            width: 25px !important;
-																																																																																																									     
-																																																																																																									           height: 47px;
-																																																																																																										    
-																																																																																																										      }
-																																																																																																										       
-																																																																																																										        
-																																																																																																											 
-																																																																																																											   #playerBar .skipButton a:link, #playerBar .playButton a:visited{
-																																																																																																											    
-																																																																																																											          background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
-																																																																																																												   
-																																																																																																												         background-size: 128px 128px !important;
-																																																																																																													  
-																																																																																																													        background-repeat:no-repeat !important;
-																																																																																																														 
-																																																																																																														       background-position: -77px -46px !important;
-																																																																																																														        
-																																																																																																															      width: 25px !important;
-																																																																																																															       
-																																																																																																															             height: 47px;
-																																																																																																																      
-																																																																																																																        }
-																																																																																																																	 
-																																																																																																																	   #playerBar .skipButton{
-																																																																																																																	    
-																																																																																																																	          background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
-																																																																																																																		   
-																																																																																																																		         background-size: 128px 128px !important;
-																																																																																																																			  
-																																																																																																																			        background-repeat:no-repeat !important;
-																																																																																																																				 
-																																																																																																																				       background-position: -77px -46px !important;
-																																																																																																																				        
-																																																																																																																					      width: 25px !important;
-																																																																																																																					       
-																																																																																																																					             height: 47px;
-																																																																																																																						      
-																																																																																																																						        }
-																																																																																																																							 
-																																																																																																																							  
-																																																																																																																							   
-																																																																																																																							     #playerBar .thumbUpButton a:link, #playerBar .thumbUpButton a:visited{
-																																																																																																																							      
-																																																																																																																							            background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
-																																																																																																																								     
-																																																																																																																								           background-size: 128px 128px !important;
-																																																																																																																									    
-																																																																																																																									          background-repeat:no-repeat !important;
-																																																																																																																										   
-																																																																																																																										         background-position: -52px -46px !important;
-																																																																																																																											  
-																																																																																																																											        width: 25px !important;
-																																																																																																																												 
-																																																																																																																												       height: 47px;
-																																																																																																																												        
-																																																																																																																													  }
-																																																																																																																													   
-																																																																																																																													     #playerBar .thumbUpButton{
-																																																																																																																													      
-																																																																																																																													            background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
-																																																																																																																														     
-																																																																																																																														           background-size: 128px 128px !important;
-																																																																																																																															    
-																																																																																																																															          background-repeat:no-repeat !important;
-																																																																																																																																   
-																																																																																																																																         background-position: -52px -46px !important;
-																																																																																																																																	  
-																																																																																																																																	        width: 25px !important;
-																																																																																																																																		 
-																																																																																																																																		       height: 47px;
-																																																																																																																																		        
-																																																																																																																																			      transform:rotate(270deg) translate(5px,6px);
-																																																																																																																																			       
-																																																																																																																																			         }
-																																																																																																																																				  
-																																																																																																																																				   
-																																																																																																																																				    
-																																																																																																																																				      #playerBar .thumbDownButton a:link, #playerBar .thumbDownButton a:visited{
-																																																																																																																																				       
-																																																																																																																																				             background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
-																																																																																																																																					      
-																																																																																																																																					            background-size: 128px 128px !important;
-																																																																																																																																						     
-																																																																																																																																						           background-repeat:no-repeat !important;
-																																																																																																																																							    
-																																																																																																																																							          background-position: -52px -46px !important;
-																																																																																																																																								   
-																																																																																																																																								         width: 25px !important;
-																																																																																																																																									  
-																																																																																																																																									        height: 47px;
-																																																																																																																																										 
-																																																																																																																																										   }
-																																																																																																																																										    
-																																																																																																																																										      #playerBar .thumbDownButton{
-																																																																																																																																										       
-																																																																																																																																										             background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
-																																																																																																																																											      
-																																																																																																																																											            background-size: 128px 128px !important;
-																																																																																																																																												     
-																																																																																																																																												           background-repeat:no-repeat !important;
-																																																																																																																																													    
-																																																																																																																																													          background-position: -52px -46px !important;
-																																																																																																																																														   
-																																																																																																																																														         width: 25px !important;
-																																																																																																																																															  
-																																																																																																																																															        height: 47px;
-																																																																																																																																																 
-																																																																																																																																																       transform:rotate(90deg) translate(-5px,5px);
-																																																																																																																																																        
-																																																																																																																																																	  }
-																																																																																																																																																	   
-																																																																																																																																																	     #playerBar .middlecolumn .buttons{
-																																																																																																																																																	      
-																																																																																																																																																	            padding-left: 50px !important;
-																																																																																																																																																		     
-																																																																																																																																																		       }
-																																																																																																																																																		        
-																																																																																																																																																			 
-																																																																																																																																																			  
-																																																																																																																																																			    #playerBar .volumeBackground{
-																																																																																																																																																			     
-																																																																																																																																																			           background-image: url("") !important;
-																																																																																																																																																				    
-																																																																																																																																																				          background-color: #222222 !important;
-																																																																																																																																																					   
-																																																																																																																																																					         border: 1px solid #000000 !important;
-																																																																																																																																																						  
-																																																																																																																																																						    }
-																																																																																																																																																						     
-																																																																																																																																																						       #brandingBar{
-																																																																																																																																																						        
-																																																																																																																																																							      background-image: url("") !important;
-																																																																																																																																																							       
-																																																																																																																																																							             background-color: #181818 !important;
-																																																																																																																																																								      
-																																																																																																																																																								        }
-																																																																																																																																																									 
-																																																																																																																																																									   #brandingBar .middlecolumn, #brandingBar .rightcolumn{
-																																																																																																																																																									    
-																																																																																																																																																									          color: #95E5FF !important;
-																																																																																																																																																										   
-																																																																																																																																																										     }
-																																																																																																																																																										      
-																																																																																																																																																										        #brandingBar .rightcolumn .user_activator:hover{
-																																																																																																																																																											 
-																																																																																																																																																											       background-image: url("") !important;
-																																																																																																																																																											        
-																																																																																																																																																												      background-color: #181818 !important;
-																																																																																																																																																												       
-																																																																																																																																																												             color: #75C5DF !important;
-																																																																																																																																																													      
-																																																																																																																																																													        }
-																																																																																																																																																														 
-																																																																																																																																																														   #searchPopupNavPosition{
-																																																																																																																																																														    
-																																																																																																																																																														          display: none !important;
-																																																																																																																																																															   
-																																																																																																																																																															     }
-																																																																																																																																																															      
-																																																																																																																																																															        #brandingBar .registeredUser{
-																																																																																																																																																																 
-																																																																																																																																																																       display: none !important;
-																																																																																																																																																																        
-																																																																																																																																																																	  }
-																																																																																																																																																																	   
-																																																																																																																																																																	     #rightColumnDivider{
-																																																																																																																																																																	      
-																																																																																																																																																																	            display: none !important;
-																																																																																																																																																																		     
-																																																																																																																																																																		       }
-																																																																																																																																																																		        
-																																																																																																																																																																			  .detail .heading{
-																																																																																																																																																																			   
-																																																																																																																																																																			         color: #61B7CF !important;
-																																																																																																																																																																				  
-																																																																																																																																																																				    }
-																																																																																																																																																																				     
-																																																																																																																																																																				       .detail a{
-																																																																																																																																																																				        
-																																																																																																																																																																					      color: #999999 !important;
-																																																																																																																																																																					       
-																																																																																																																																																																					         }
-																																																																																																																																																																						  
-																																																																																																																																																																						    .detail .divider{
-																																																																																																																																																																						     
-																																																																																																																																																																						           visibility: hidden !important;
-																																																																																																																																																																							    
-																																																																																																																																																																							      }
-																																																																																																																																																																							       
-																																																																																																																																																																							         .skinContainer{
-																																																																																																																																																																								  
-																																																																																																																																																																								        background: none repeat scroll 0 0 #222222 !important;
-																																																																																																																																																																									 
-																																																																																																																																																																									   }
-																																																																																																																																																																									    
-																																																																																																																																																																									    }
+
+@-moz-document domain("www.pandora.com") {
+
+	#mainContainer{
+
+		background-image: url("") !important;
+
+		background-color: #222222 !important;
+
+		height: 900px !important;
+
+	}
+
+	#mainContent{
+
+		background-color: #444444 !important;
+
+		border-bottom: 1px solid #000000 !important;
+
+		border-right: 1px solid #000000 !important;
+
+	}
+
+	.contentnav{
+
+		background-color: #333333 !important;
+
+		border-right: 1px solid #000000 !important;
+
+	}
+
+	.contentContainer .top{
+
+		background-color: #333333 !important;
+
+		border-top: 1px solid #000000 !important;
+
+		border-right: 1px solid #000000 !important;
+
+	}
+
+	#splash{
+
+		background-image: none !important;
+
+		background-color: #222222 !important;
+
+	}
+
+	.detail{
+
+		background-color: #444444 !important;
+
+		color: #FFFFFF !important;
+
+	}
+
+	#trackInfo{
+
+		background-color: #333333 !important;
+
+		border-bottom: 1px solid #000000 !important;
+
+		border-left: 1px solid #000000 !important;
+
+		border-top: 1px solid #000000 !important;
+
+	}
+
+	#trackInfo .info a{
+
+		color: #61B7CF !important;
+
+	}
+
+	#trackInfo .info{
+
+		text-shadow: -1px 1px #000000 !important;
+
+		color: #BBBBBB !important;
+
+	}
+
+	#trackInfoButtons{
+
+		display: none !important;
+
+	}
+
+	#playerBar{
+
+		background: url("") repeat-x scroll 0 0 rgba(0, 0, 0, 0) !important;
+
+		background-color: #333333 !important;
+
+		border-bottom: 1px solid #000000 !important;
+
+		border-top: 1px solid #000000 !important;
+
+	}
+
+	#playerBar .highlight{
+
+		background: url("") repeat-x scroll 0 0 rgba(0, 0, 0, 0) !important;
+
+	}
+
+	#currentSlideArrow{
+
+		display: none !important;
+
+	}
+
+	.stationContent #promobox{
+
+		display: none !important;
+
+	}
+
+	.platformPromo{
+
+		display: none !important;
+
+	}
+
+	.stationListHolder{
+
+		height: 700px !important;
+
+	}
+
+	.jspContainer{
+
+		overflow: visible !important;
+
+	}
+
+	.stationContent{
+
+		background: none repeat scroll 0 0 #333333 !important;
+
+		border-right: 1px solid #000000 !important;
+
+	}
+
+	.home .homeRightSide{
+
+		background-color: #444444 !important;
+
+	}
+
+	.stationListItem{
+
+		border-bottom: 1px solid #000000 !important;
+
+		border-top: none !important;
+
+		padding-bottom: 5px !important;
+
+	}
+
+	.stationListItem .stationName{
+
+		color: #61B7CF !important;
+
+		text-shadow: -1px 1px #000000 !important;
+
+	}
+
+	.stationListItem.selected{
+
+		background: url("") repeat-x scroll center top #444444 !important;
+
+		border-top: none !important;
+
+		border-bottom: 1px solid #000000 !important;
+
+		padding-bottom: 0px !important;
+
+	}
+
+	.btn_bg_sort{
+
+		background-color: #444444 !important;
+
+		background-image: none !important;
+
+		color: #FFFFFF !important;
+
+		text-shadow: -1px 1px #000000 !important;
+
+	}
+
+	.btn_bg_sort.selected{
+
+		background-color: #555555 !important;
+
+		background-image: none !important;
+
+	}
+
+	#stationSortDate, #stationSortAlpha{
+
+		border-color: #000000 !important;
+
+	}
+
+	.stationListItem .options{
+
+		background-color: #555555 !important;
+
+		border-top: 1px solid #000000 !important;
+
+	}
+
+	.stationName_hover{
+
+		background-color: #555555 !important;
+
+	}
+
+	.stationListItem .option{
+
+		color: #BBBBBB !important;
+
+	}
+
+	.stationListItem .option.addVariety{
+
+		border-right: 1px solid #000000 !important;
+
+	}
+
+	.adSupported-layout .contentContainer{
+
+		float: none !important;
+
+	}
+
+	#ad_container{
+
+		display: none !important;
+
+		float: none !important;
+
+	}
+
+	#adLayout{
+
+		left: -30px !important;
+
+	}
+
+	#footer{
+
+		left: 152px !important;
+
+		display: none !important;
+
+	}
+
+	#main{
+
+		background-image: url("") !important;
+
+		background-color: #222222 !important;
+
+	}
+
+	#playerBar .pauseButton a:link, #playerBar .pauseButton a:visited{
+
+		background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
+
+		background-size: 128px 128px !important;
+
+		background-repeat:no-repeat !important;
+
+		background-position: 0px -40px !important;
+
+		width: 25px !important;
+
+		height: 47px;
+
+	}
+
+	#playerBar .pauseButton{
+
+		background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
+
+		background-size: 128px 128px !important;
+
+		background-repeat:no-repeat !important;
+
+		background-position: 0px -40px !important;
+
+		width: 25px !important;
+
+		height: 47px;
+
+	}
+
+
+
+	#playerBar .playButton a:link, #playerBar .playButton a:visited{
+
+		background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
+
+		background-size: 128px 128px !important;
+
+		background-repeat:no-repeat !important;
+
+		background-position: -52px -40px !important;
+
+		width: 25px !important;
+
+		height: 47px;
+
+	}
+
+	#playerBar .playButton{
+
+		background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
+
+		background-size: 128px 128px !important;
+
+		background-repeat:no-repeat !important;
+
+		background-position: -52px -40px !important;
+
+		width: 25px !important;
+
+		height: 47px;
+
+	}
+
+
+
+	#playerBar .skipButton a:link, #playerBar .playButton a:visited{
+
+		background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
+
+		background-size: 128px 128px !important;
+
+		background-repeat:no-repeat !important;
+
+		background-position: -77px -46px !important;
+
+		width: 25px !important;
+
+		height: 47px;
+
+	}
+
+	#playerBar .skipButton{
+
+		background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
+
+		background-size: 128px 128px !important;
+
+		background-repeat:no-repeat !important;
+
+		background-position: -77px -46px !important;
+
+		width: 25px !important;
+
+		height: 47px;
+
+	}
+
+
+
+	#playerBar .thumbUpButton a:link, #playerBar .thumbUpButton a:visited{
+
+		background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
+
+		background-size: 128px 128px !important;
+
+		background-repeat:no-repeat !important;
+
+		background-position: -52px -46px !important;
+
+		width: 25px !important;
+
+		height: 47px;
+
+	}
+
+	#playerBar .thumbUpButton{
+
+		background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
+
+		background-size: 128px 128px !important;
+
+		background-repeat:no-repeat !important;
+
+		background-position: -52px -46px !important;
+
+		width: 25px !important;
+
+		height: 47px;
+
+		transform:rotate(270deg) translate(5px,6px);
+
+	}
+
+
+
+	#playerBar .thumbDownButton a:link, #playerBar .thumbDownButton a:visited{
+
+		background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
+
+		background-size: 128px 128px !important;
+
+		background-repeat:no-repeat !important;
+
+		background-position: -52px -46px !important;
+
+		width: 25px !important;
+
+		height: 47px;
+
+	}
+
+	#playerBar .thumbDownButton{
+
+		background-image: url("http://www.i2clipart.com/cliparts/b/d/d/e/clipart-glossy-media-player-buttons-inverted-bdde.png") !important;
+
+		background-size: 128px 128px !important;
+
+		background-repeat:no-repeat !important;
+
+		background-position: -52px -46px !important;
+
+		width: 25px !important;
+
+		height: 47px;
+
+		transform:rotate(90deg) translate(-5px,5px);
+
+	}
+
+	#playerBar .middlecolumn .buttons{
+
+		padding-left: 50px !important;
+
+	}
+
+
+
+	#playerBar .volumeBackground{
+
+		background-image: url("") !important;
+
+		background-color: #222222 !important;
+
+		border: 1px solid #000000 !important;
+
+	}
+
+	#brandingBar{
+
+		background-image: url("") !important;
+
+		background-color: #181818 !important;
+
+	}
+
+	#brandingBar .middlecolumn, #brandingBar .rightcolumn{
+
+		color: #95E5FF !important;
+
+	}
+
+	#brandingBar .rightcolumn .user_activator:hover{
+
+		background-image: url("") !important;
+
+		background-color: #181818 !important;
+
+		color: #75C5DF !important;
+
+	}
+
+	#searchPopupNavPosition{
+
+		display: none !important;
+
+	}
+
+	#brandingBar .registeredUser{
+
+		display: none !important;
+
+	}
+
+	#rightColumnDivider{
+
+		display: none !important;
+
+	}
+
+	.detail .heading{
+
+		color: #61B7CF !important;
+
+	}
+
+	.detail a{
+
+		color: #999999 !important;
+
+	}
+
+	.detail .divider{
+
+		visibility: hidden !important;
+
+	}
+
+	.skinContainer{
+
+		background: none repeat scroll 0 0 #222222 !important;
+
+	}
+
+}

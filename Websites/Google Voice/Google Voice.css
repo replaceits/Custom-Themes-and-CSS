@@ -1,449 +1,449 @@
- 
- @-moz-document url-prefix("https://www.google.com/voice"){
-  
-    body{
-     
-           background-color: #222222 !important;
-	    
-	      }
-	       
-	         .gc-inbox-view-main, .gc-settings-content{
-		  
-		        background-color: #333333 !important;
-			 
-			       color: #FFFFFF !important;
-			        
-				  }
-				   
-				     .gcSidebarJfk .moreMenuSection .selectedItem .goog-flat-menu-button-caption {
-				      
-				            color: #FFFFFF !important;
-					     
-					       }
-					        
-						  .goog-tab-content{
-						   
-						         background-color: #333333 !important;
-							  
-							        color: #FFFFFF !important;
-								 
-								   }
-								    
-								      .gc-yellow-rnd .gc-rounded-bg{
-								       
-								             background-color: #61B7CF !important;
-									      
-									        }
-										 
-										   .gc-user-tip div{
-										    
-										          background-color: #222222 !important;
-											   
-											         color: #FFFFFF !important;
-												  
-												        border-color: #61B7CF !important;
-													 
-													   }
-													    
-													      #gbql{
-													       
-													             background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d5/Transparent_google_logo.png") !important;
-														      
-														            background-size: 116px 45px !important;
-															     
-															           background-position: 0 0 !important;
-																    
-																      }
-																          .goog-splitpane-first-container, #gbq, #gbu, #gbx1{
-																	          display: none !important;
-																		      }
-																		          #gb.gbes, #gb.gbesi{
-																			          height: 10px !important;
-																				      }
-																				          #gb.gbem{
-																					          height: 15px !important;
-																						      }
-																						          #gb{
-																							          height: 15px !important;
-																								      }
-																								          #gc-gaia-bar,.gc-message-actions,.gc-footer,.gc-user-tip,#gb_5,#gb_119,.gc-appbar-settings-area,.gc-appbar-message-area,.gc-appbar-label-area, .gc-appbar-show-label{
-																									          display: none !important;
-																										      }
-																										       
-																										         #gbql.gbem, #gb.gbemi #gbql, #gbql.gbes, #gb.gbesi #gbql, #gbql.gbet, #gb.gbeti #gbql, #gbql.gbeu, #gb.gbeui #gbql {
-																											  
-																											        background-position: 0px 0 !important;
-																												 
-																												       height: 37px !important;
-																												        
-																													      width: 95px !important;
-																													       
-																													             background-size: 95px 37px !important;
-																														      
-																														        }
-																															 
-																															   .gc-bubble-tl, .gc-bubble-bl{
-																															    
-																															          height: 0px !important;
-																																   
-																																     }
-																																      
-																																        .gc-bubble-br, .gc-bubble-tr,.gc-bubble-callout{
-																																	 
-																																	       height: 0px !important;
-																																	        
-																																		      width: 0px !important;
-																																		       
-																																		         }
-																																			  
-																																			    .goog-bubble-close-button{
-																																			     
-																																			           right: 8px !important;
-																																				    
-																																				          top: 8px !important;
-																																					   
-																																					     }
-																																					      
-																																					        .gc-bubble-mr, .gc-bubble-ml{
-																																						 
-																																						       width: 0px !important;
-																																						        
-																																							  }
-																																							   
-																																							     .gc-bubble-mc{
-																																							      
-																																							            background-color: #222222 !important;
-																																								     
-																																								           color: #FFFFFF !important;
-																																									    
-																																									          box-shadow: 0px 0px 25px #000000 !important;
-																																										   
-																																										     }
-																																										      
-																																										        .gc-text, .gc-quickcall-ac{
-																																											 
-																																											       background-color: #000000 !important;
-																																											        
-																																												      color: #FFFFFF !important;
-																																												       
-																																												         }
-																																													  
-																																													    .gc-message-portrait{
-																																													     
-																																													          
-																																														   
-																																														     }
-																																														      
-																																														        .gc-message{
-																																															 
-																																															       background-color: #404040 !important;
-																																															        
-																																																      border-bottom: 1px solid #000000 !important;
-																																																       
-																																																         }
-																																																	  
-																																																	    .gc-message-selected td.gc-message-bg-l.gc-message-bg-upper, .gc-message-selected td.gc-message-bg-m.gc-message-bg-upper, .gc-message-selected td.gc-message-bg-r.gc-message-bg-upper{
-																																																	     
-																																																	           background-color: #383838 !important;
-																																																		    
-																																																		      }
-																																																		       
-																																																		         .gc-message-read{
-																																																			  
-																																																			        background-color: #333333 !important;
-																																																				 
-																																																				   }
-																																																				    
-																																																				      .gc-message-time, .gc-message-location, .gc-message-sms-text, .gc-message-name, .phoneNumberLabel{
-																																																				       
-																																																				             color: #FFFFFF !important;
-																																																					      
-																																																					        }
-																																																						 
-																																																						   .gc-message-sline, .gc-message-cost-sm {
-																																																						    
-																																																						          background-color: #057D9F !important;
-																																																							   
-																																																							     }
-																																																							      
-																																																							        .gc-message-read .gc-message-sline{
-																																																								 
-																																																								       background-color: #333333 !important;
-																																																								        
-																																																									  }
-																																																									   
-																																																									     .gc-sline-bottom, .gc-sline-top{
-																																																									      
-																																																									            height: 0px !important;
-																																																										     
-																																																										           width: 0px !important;
-																																																											    
-																																																											      }
-																																																											       
-																																																											         .gc-message-sms-from{
-																																																												  
-																																																												        color: #61B7CF !important;
-																																																													 
-																																																													   }
-																																																													    
-																																																													      .gc-message-sms-time{
-																																																													       
-																																																													             color: #999999 !important;
-																																																														      
-																																																														        }
-																																																															 
-																																																															   .gc-message-sms-show, .gc-message-add-contact{
-																																																															    
-																																																															          color: #106099 !important;
-																																																																   
-																																																																     }
-																																																																      
-																																																																        a:link, a:visited, a:hover, a:active{
-																																																																	 
-																																																																	       color: #95E5FF !important;
-																																																																	        
-																																																																		  }
-																																																																		   
-																																																																		     .gc-message-name-link{
-																																																																		      
-																																																																		            color: #55AAFF !important;
-																																																																			     
-																																																																			       }
-																																																																			        
-																																																																				  .gc-inbox-sidebar-main{
-																																																																				   
-																																																																				         border-right: 1px solid #000000 !important;
-																																																																					  
-																																																																					    }
-																																																																					     
-																																																																					       #gbx1, #gbx2{
-																																																																					        
-																																																																						      border-color: #000000 !important;
-																																																																						       
-																																																																						         }
-																																																																							  
-																																																																							    .gc-control, .gc-message-more-menu .goog-flat-menu-button-caption, .goog-flat-menu-button-dropdown{
-																																																																							     
-																																																																							           color: #AAAAAA !important;
-																																																																								    
-																																																																								      }
-																																																																								       
-																																																																								         #gc-header{
-																																																																									  
-																																																																									        background-color: #222222 !important;
-																																																																										 
-																																																																										   }
-																																																																										    
-																																																																										      .gc-appbar .gc-appbar-label{
-																																																																										       
-																																																																										             color: #057D9F !important;
-																																																																											      
-																																																																											            padding: 0px 0 !important;
-																																																																												     
-																																																																												           border-bottom: 1px solid #000000 !important;
-																																																																													    
-																																																																													      }
-																																																																													       
-																																																																													         textarea{
-																																																																														  
-																																																																														        background-color: #000000 !important;
-																																																																															 
-																																																																															       color: #FFFFFF !important;
-																																																																															        
-																																																																																      padding: 0px 0 0px 0px !important;
-																																																																																       
-																																																																																         }
-																																																																																	  
-																																																																																	    .goog-menuitem-highlight, .goog-menuitem-content, .goog-menuitem-hover, .goog-menuitem-content{
-																																																																																	     
-																																																																																	           color: #61B7CF !important;
-																																																																																		    
-																																																																																		      }
-																																																																																		       
-																																																																																		         .goog-menuitem-highlight, .goog-menuitem-hover{
-																																																																																			  
-																																																																																			        background-color: #333333 !important;
-																																																																																				 
-																																																																																				       color: #61B7CF !important;
-																																																																																				        
-																																																																																					      border-width: 0px 0 !important;
-																																																																																					       
-																																																																																					         }
-																																																																																						  
-																																																																																						    .jfk-button-primary{
-																																																																																						     
-																																																																																						           background-color: #222222 !important;
-																																																																																							    
-																																																																																							          background-image: none !important;
-																																																																																								   
-																																																																																								         border: 1px solid #000000 !important;
-																																																																																									  
-																																																																																									    }
-																																																																																									     
-																																																																																									       #gbx1, #gbx2{
-																																																																																									        
-																																																																																										      background: none repeat scroll 0 0 #222222 !important;
-																																																																																										       
-																																																																																										         }
-																																																																																											  
-																																																																																											    #gbqfq, #gbqfqb, #gbqfqc{
-																																																																																											     
-																																																																																											           background: none repeat scroll 0 0 #111111 !important;
-																																																																																												    
-																																																																																												          color: #FFFFFF !important;
-																																																																																													   
-																																																																																													     }
-																																																																																													      
-																																																																																													        .gc-quickcall-phone .goog-flat-menu-button-caption{
-																																																																																														 
-																																																																																														       color: #FFFFFF !important;
-																																																																																														        
-																																																																																															  }
-																																																																																															   
-																																																																																															     .goog-modalpopup, .modal-dialog, #describe-panel{
-																																																																																															      
-																																																																																															            background: none repeat scroll 0 0 padding-box #333333 !important;
-																																																																																																     
-																																																																																																       }
-																																																																																																        
-																																																																																																	  .modal-dialog-title{
-																																																																																																	   
-																																																																																																	         background-color: #333333 !important;
-																																																																																																		  
-																																																																																																		        color: #FFFFFF !important;
-																																																																																																			 
-																																																																																																			   }
-																																																																																																			    
-																																																																																																			      .modal-dialog{
-																																																																																																			       
-																																																																																																			             color: #FFFFFF !important;
-																																																																																																				      
-																																																																																																				        }
-																																																																																																					 
-																																																																																																					   .goog-menu{
-																																																																																																					    
-																																																																																																					          border: 0px !important;
-																																																																																																						   
-																																																																																																						         padding: 0px !important;
-																																																																																																							  
-																																																																																																							    }
-																																																																																																							     
-																																																																																																							       .jfk-button-standard,.goog-flat-menu-button{
-																																																																																																							        
-																																																																																																								      background-color: #222222 !important;
-																																																																																																								       
-																																																																																																								             background-image: none;
-																																																																																																									      
-																																																																																																									            color: #FFFFFF !important;
-																																																																																																										     
-																																																																																																										           border: 1px solid #000000 !important;
-																																																																																																											    
-																																																																																																											      }
-																																																																																																											       
-																																																																																																											         .goog-menuitem{
-																																																																																																												  
-																																																																																																												        background-color: #222222 !important;
-																																																																																																													 
-																																																																																																													   }
-																																																																																																													    
-																																																																																																													      .goog-menuitem:hover{
-																																																																																																													       
-																																																																																																													             background-color: #111111 !important;
-																																																																																																														      
-																																																																																																														        }
-																																																																																																															 
-																																																																																																															   .gbqfqw{
-																																																																																																															    
-																																																																																																															          border-width: 0px !important;
-																																																																																																																   
-																																																																																																																         border-color: #000000 !important;
-																																																																																																																	  
-																																																																																																																	        height: 0px !important;
-																																																																																																																		 
-																																																																																																																		       background-color: #000000;
-																																																																																																																		        
-																																																																																																																			  }
-																																																																																																																			   
-																																																																																																																			     .gc-message-more-menu{
-																																																																																																																			      
-																																																																																																																			            color: #999999 !important;
-																																																																																																																				     
-																																																																																																																				       }
-																																																																																																																				        
-																																																																																																																					  .goog-flat-menu-button:hover{
-																																																																																																																					   
-																																																																																																																					         color: #555555 !important;
-																																																																																																																						  
-																																																																																																																						    }
-																																																																																																																						     
-																																																																																																																						       .gbqfqwb {
-																																																																																																																						        
-																																																																																																																							      padding: 0px  !important;
-																																																																																																																							       
-																																																																																																																							         }
-																																																																																																																								  
-																																																																																																																								    .sectionDivider, .horizontalDivider{
-																																																																																																																								     
-																																																																																																																								           border-bottom: 0px !important;
-																																																																																																																									    
-																																																																																																																									      }
-																																																																																																																									       
-																																																																																																																									         .gc-appbar{
-																																																																																																																										  
-																																																																																																																										        border-bottom: 1px solid #000000 !important;
-																																																																																																																											 
-																																																																																																																											   }
-																																																																																																																											    
-																																																																																																																											      .gc-help-button, .addCreditIcon, .gbmai{
-																																																																																																																											       
-																																																																																																																											             height: 0px !important;
-																																																																																																																												      
-																																																																																																																												            width: 0px !important;
-																																																																																																																													     
-																																																																																																																													       }
-																																																																																																																													        
-																																																																																																																														  .balance{
-																																																																																																																														   
-																																																																																																																														         color: #61B7CF !important;
-																																																																																																																															  
-																																																																																																																															    }
-																																																																																																																															     
-																																																																																																																															       .phoneNumber{
-																																																																																																																															        
-																																																																																																																																      color: #BBBBBB !important;
-																																																																																																																																       
-																																																																																																																																         }
-																																																																																																																																	  
-																																																																																																																																	    .phoneNumber:hover{
-																																																																																																																																	     
-																																																																																																																																	           color: #FFFFFF !important;
-																																																																																																																																		    
-																																																																																																																																		      }
-																																																																																																																																		       
-																																																																																																																																		         #gbgs4dn{
-																																																																																																																																			  
-																																																																																																																																			        color: #FFFFFF !important;
-																																																																																																																																				 
-																																																																																																																																				   }
-																																																																																																																																				    
-																																																																																																																																				      .gc-simple-menu .gc-message-more-menu{
-																																																																																																																																				          border: none !important;
-																																																																																																																																					      background: none !important;
-																																																																																																																																					          margin-top: 0px !important;
-																																																																																																																																						      padding: 0 0px 0px 0 !important;
-																																																																																																																																						          top: -5px !important;
-																																																																																																																																							      right: 5px !important;
-																																																																																																																																							        }
-																																																																																																																																								 .jfk-button-hover, .goog-flat-menu-button:hover{
-																																																																																																																																								     background-color: #333333 !important;
-																																																																																																																																								         background-image: none !important;
-																																																																																																																																									     color: #FFFFFF !important;
-																																																																																																																																									      }
-																																																																																																																																									       .jfk-button-standard.jfk-button-checked, .jfk-button-standard.jfk-button-clear-outline.jfk-button-checked{
-																																																																																																																																									           background-color: #333333 !important;
-																																																																																																																																										       background-image: none !important;
-																																																																																																																																										        }
-																																																																																																																																											 .gcSidebarJfk .moreMenuSection .goog-flat-menu-button{
-																																																																																																																																											     border: none !important;
-																																																																																																																																											      }
-																																																																																																																																											      }
+
+@-moz-document url-prefix("https://www.google.com/voice"){
+
+	body{
+
+		background-color: #222222 !important;
+
+	}
+
+	.gc-inbox-view-main, .gc-settings-content{
+
+		background-color: #333333 !important;
+
+		color: #FFFFFF !important;
+
+	}
+
+	.gcSidebarJfk .moreMenuSection .selectedItem .goog-flat-menu-button-caption {
+
+		color: #FFFFFF !important;
+
+	}
+
+	.goog-tab-content{
+
+		background-color: #333333 !important;
+
+		color: #FFFFFF !important;
+
+	}
+
+	.gc-yellow-rnd .gc-rounded-bg{
+
+		background-color: #61B7CF !important;
+
+	}
+
+	.gc-user-tip div{
+
+		background-color: #222222 !important;
+
+		color: #FFFFFF !important;
+
+		border-color: #61B7CF !important;
+
+	}
+
+	#gbql{
+
+		background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/d5/Transparent_google_logo.png") !important;
+
+		background-size: 116px 45px !important;
+
+		background-position: 0 0 !important;
+
+	}
+	.goog-splitpane-first-container, #gbq, #gbu, #gbx1{
+		display: none !important;
+	}
+	#gb.gbes, #gb.gbesi{
+		height: 10px !important;
+	}
+	#gb.gbem{
+		height: 15px !important;
+	}
+	#gb{
+		height: 15px !important;
+	}
+	#gc-gaia-bar,.gc-message-actions,.gc-footer,.gc-user-tip,#gb_5,#gb_119,.gc-appbar-settings-area,.gc-appbar-message-area,.gc-appbar-label-area, .gc-appbar-show-label{
+		display: none !important;
+	}
+
+	#gbql.gbem, #gb.gbemi #gbql, #gbql.gbes, #gb.gbesi #gbql, #gbql.gbet, #gb.gbeti #gbql, #gbql.gbeu, #gb.gbeui #gbql {
+
+		background-position: 0px 0 !important;
+
+		height: 37px !important;
+
+		width: 95px !important;
+
+		background-size: 95px 37px !important;
+
+	}
+
+	.gc-bubble-tl, .gc-bubble-bl{
+
+		height: 0px !important;
+
+	}
+
+	.gc-bubble-br, .gc-bubble-tr,.gc-bubble-callout{
+
+		height: 0px !important;
+
+		width: 0px !important;
+
+	}
+
+	.goog-bubble-close-button{
+
+		right: 8px !important;
+
+		top: 8px !important;
+
+	}
+
+	.gc-bubble-mr, .gc-bubble-ml{
+
+		width: 0px !important;
+
+	}
+
+	.gc-bubble-mc{
+
+		background-color: #222222 !important;
+
+		color: #FFFFFF !important;
+
+		box-shadow: 0px 0px 25px #000000 !important;
+
+	}
+
+	.gc-text, .gc-quickcall-ac{
+
+		background-color: #000000 !important;
+
+		color: #FFFFFF !important;
+
+	}
+
+	.gc-message-portrait{
+
+
+
+	}
+
+	.gc-message{
+
+		background-color: #404040 !important;
+
+		border-bottom: 1px solid #000000 !important;
+
+	}
+
+	.gc-message-selected td.gc-message-bg-l.gc-message-bg-upper, .gc-message-selected td.gc-message-bg-m.gc-message-bg-upper, .gc-message-selected td.gc-message-bg-r.gc-message-bg-upper{
+
+		background-color: #383838 !important;
+
+	}
+
+	.gc-message-read{
+
+		background-color: #333333 !important;
+
+	}
+
+	.gc-message-time, .gc-message-location, .gc-message-sms-text, .gc-message-name, .phoneNumberLabel{
+
+		color: #FFFFFF !important;
+
+	}
+
+	.gc-message-sline, .gc-message-cost-sm {
+
+		background-color: #057D9F !important;
+
+	}
+
+	.gc-message-read .gc-message-sline{
+
+		background-color: #333333 !important;
+
+	}
+
+	.gc-sline-bottom, .gc-sline-top{
+
+		height: 0px !important;
+
+		width: 0px !important;
+
+	}
+
+	.gc-message-sms-from{
+
+		color: #61B7CF !important;
+
+	}
+
+	.gc-message-sms-time{
+
+		color: #999999 !important;
+
+	}
+
+	.gc-message-sms-show, .gc-message-add-contact{
+
+		color: #106099 !important;
+
+	}
+
+	a:link, a:visited, a:hover, a:active{
+
+		color: #95E5FF !important;
+
+	}
+
+	.gc-message-name-link{
+
+		color: #55AAFF !important;
+
+	}
+
+	.gc-inbox-sidebar-main{
+
+		border-right: 1px solid #000000 !important;
+
+	}
+
+	#gbx1, #gbx2{
+
+		border-color: #000000 !important;
+
+	}
+
+	.gc-control, .gc-message-more-menu .goog-flat-menu-button-caption, .goog-flat-menu-button-dropdown{
+
+		color: #AAAAAA !important;
+
+	}
+
+	#gc-header{
+
+		background-color: #222222 !important;
+
+	}
+
+	.gc-appbar .gc-appbar-label{
+
+		color: #057D9F !important;
+
+		padding: 0px 0 !important;
+
+		border-bottom: 1px solid #000000 !important;
+
+	}
+
+	textarea{
+
+		background-color: #000000 !important;
+
+		color: #FFFFFF !important;
+
+		padding: 0px 0 0px 0px !important;
+
+	}
+
+	.goog-menuitem-highlight, .goog-menuitem-content, .goog-menuitem-hover, .goog-menuitem-content{
+
+		color: #61B7CF !important;
+
+	}
+
+	.goog-menuitem-highlight, .goog-menuitem-hover{
+
+		background-color: #333333 !important;
+
+		color: #61B7CF !important;
+
+		border-width: 0px 0 !important;
+
+	}
+
+	.jfk-button-primary{
+
+		background-color: #222222 !important;
+
+		background-image: none !important;
+
+		border: 1px solid #000000 !important;
+
+	}
+
+	#gbx1, #gbx2{
+
+		background: none repeat scroll 0 0 #222222 !important;
+
+	}
+
+	#gbqfq, #gbqfqb, #gbqfqc{
+
+		background: none repeat scroll 0 0 #111111 !important;
+
+		color: #FFFFFF !important;
+
+	}
+
+	.gc-quickcall-phone .goog-flat-menu-button-caption{
+
+		color: #FFFFFF !important;
+
+	}
+
+	.goog-modalpopup, .modal-dialog, #describe-panel{
+
+		background: none repeat scroll 0 0 padding-box #333333 !important;
+
+	}
+
+	.modal-dialog-title{
+
+		background-color: #333333 !important;
+
+		color: #FFFFFF !important;
+
+	}
+
+	.modal-dialog{
+
+		color: #FFFFFF !important;
+
+	}
+
+	.goog-menu{
+
+		border: 0px !important;
+
+		padding: 0px !important;
+
+	}
+
+	.jfk-button-standard,.goog-flat-menu-button{
+
+		background-color: #222222 !important;
+
+		background-image: none;
+
+		color: #FFFFFF !important;
+
+		border: 1px solid #000000 !important;
+
+	}
+
+	.goog-menuitem{
+
+		background-color: #222222 !important;
+
+	}
+
+	.goog-menuitem:hover{
+
+		background-color: #111111 !important;
+
+	}
+
+	.gbqfqw{
+
+		border-width: 0px !important;
+
+		border-color: #000000 !important;
+
+		height: 0px !important;
+
+		background-color: #000000;
+
+	}
+
+	.gc-message-more-menu{
+
+		color: #999999 !important;
+
+	}
+
+	.goog-flat-menu-button:hover{
+
+		color: #555555 !important;
+
+	}
+
+	.gbqfqwb {
+
+		padding: 0px  !important;
+
+	}
+
+	.sectionDivider, .horizontalDivider{
+
+		border-bottom: 0px !important;
+
+	}
+
+	.gc-appbar{
+
+		border-bottom: 1px solid #000000 !important;
+
+	}
+
+	.gc-help-button, .addCreditIcon, .gbmai{
+
+		height: 0px !important;
+
+		width: 0px !important;
+
+	}
+
+	.balance{
+
+		color: #61B7CF !important;
+
+	}
+
+	.phoneNumber{
+
+		color: #BBBBBB !important;
+
+	}
+
+	.phoneNumber:hover{
+
+		color: #FFFFFF !important;
+
+	}
+
+	#gbgs4dn{
+
+		color: #FFFFFF !important;
+
+	}
+
+	.gc-simple-menu .gc-message-more-menu{
+		border: none !important;
+		background: none !important;
+		margin-top: 0px !important;
+		padding: 0 0px 0px 0 !important;
+		top: -5px !important;
+		right: 5px !important;
+	}
+	.jfk-button-hover, .goog-flat-menu-button:hover{
+		background-color: #333333 !important;
+		background-image: none !important;
+		color: #FFFFFF !important;
+	}
+	.jfk-button-standard.jfk-button-checked, .jfk-button-standard.jfk-button-clear-outline.jfk-button-checked{
+		background-color: #333333 !important;
+		background-image: none !important;
+	}
+	.gcSidebarJfk .moreMenuSection .goog-flat-menu-button{
+		border: none !important;
+	}
+}
