@@ -1,0 +1,370 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("reddit.com"){
+  body{
+      background-color: #333;
+          font-family: "DejaVuSans" !important;
+	    }
+	      #header{
+	          background-color: #555;
+		      border-bottom-color: #444;
+		        }
+			  #sr-header-area{
+			      color: #777;
+			          background-color: #333;
+				      border-bottom-color: #444;
+				        }
+					  .sr-bar .separator{
+					      color: #777;
+					        }
+						  .sr-bar a{
+						      color: #FFF;
+						        }
+							  .content{
+							      background-color: #393939;
+							          color: #fff;
+								    }
+								      .link .title{
+								          color: #55AAFF;
+									    }
+									      .link .title a:visited{
+									          color: #386FA6;
+										    }
+										      .thumbnail{
+										          border: 1px solid #000;
+											      background-color: #555;
+											        }
+												  .odd{
+												      background: #333 !important;
+												        }
+													  .RES-keyNav-activeElement{
+													      background-color: rgba(0,0,0,0) !important;
+													        }
+														  .tagline{
+														      color: #AAA;
+														        }
+															  .entry .buttons li a{
+															      color: #BBB;
+															        }
+																  .newComments{
+																      color: #95e5ff;
+																        }
+																	  .tabmenu li a{
+																	      background-color: #333;
+																	          color: #FFF;
+																		      border-bottom: 1px solid #333;
+																		        }
+																			  .tabmenu li.selected a{
+																			      background-color: #444;
+																			          color: #95e5ff;
+																				      border: 1px solid #333;
+																				        }
+																					  .goldvertisement, .create, .account-activity-box, .trending-subreddits{
+																					      display: none;
+																					        }
+																						  .side{
+																						      background-color: #555;
+																						          margin: 0;
+																							      border-left: 1px solid #000;
+																							          border-bottom: 1px solid #000;
+																								      color: #fff;
+																								        }
+																									  .sidecontentbox .content, .sidecontentbox .content .reddit-link, .sidecontentbox .content .reddit-link-title{
+																									      border: none;
+																									          background-color: #555 !important;
+																										      color: #AAA;
+																										        }
+																											   .sidecontentbox .content small a:link{
+																											        color: #333;
+																												     font-weight: bold;
+																												        }
+																													  .sidecontentbox .content .flair, .sidecontentbox .content .linkflairlabel{
+																													      background-color: #444;
+																													          border-color: #333;
+																														      color: #CCC;
+																														        }
+																															   .sidecontentbox .content small{
+																															        color: #444;
+																																   }
+																																     .sidecontentbox .title h1{
+																																         color: #ccc;
+																																	   }
+																																	     .flair, .linkflairlabel{
+																																	         background-color: #222;
+																																		     border-color: #111;
+																																		         color: #AAA;
+																																			   }
+																																			     .titlebox form.toggle, .leavemoderator{
+																																			         background-color: #555;
+																																				   }
+																																				     .titlebox h1 a, .md, .usertext-edit textarea{
+																																				         color: #fff;
+																																					   }
+																																					     .md a, .usertext-edit textarea a, .author, .helplink, .sidecontentbox .content .right a{
+																																					         color: #95e5ff;
+																																						   }
+																																						     .morelink, .morelink .nub{
+																																						         background: #444;
+																																							     border-left: none;
+																																							         border-right: none;
+																																								     border-bottom: 1px solid #333;
+																																								         border-top: 1px solid #333;
+																																									   }
+																																									     .link.last-clicked{
+																																									         border: none;
+																																										   }
+																																										     .morelink .nub{
+																																										         height: 29px;
+																																											   }
+																																											     .morelink:hover, .morelink:hover .nub{
+																																											         background: #333;
+																																												     border-left: none;
+																																												         border-right: none;
+																																													     border-bottom: 1px solid #222;
+																																													         border-top: 1px solid #222;
+																																														   }
+																																														     .morelink a:link, .morelink a:visited{
+																																														         color: #CCC;
+																																															   }
+																																															     .morelink:hover a:link, .morelink:hover a:visited{
+																																															         color: #AAA;
+																																																   }
+																																																     .link .score, .link .rank{
+																																																         color: #FFF;
+																																																	   }
+																																																	     .link .score.likes, .tagline a{
+																																																	         color: #95e5ff;
+																																																		   }
+																																																		     .link .score.dislikes{
+																																																		         color: #386FA6;
+																																																			   }
+																																																			     .expando-button, .expando-button:hover{
+																																																			         background-color: rgba(0,0,0,0);
+																																																				   }
+																																																				     .madeVisible img{
+																																																				         border: 1px solid #000;
+																																																					   }
+																																																					     .NERPageMarker, #progressIndicator, .neverEndingReddit, .neverEndingReddit a{
+																																																					         background-color: #505050;
+																																																						     border-color: #404040;
+																																																						         color: #FFF;
+																																																							   }
+																																																							     .neverEndingReddit h2{
+																																																							         color: #95e5ff;
+																																																								   }
+																																																								     .thing.stickied a.title, .thing.stickied a.title:visited, .thing.stickied a.title.visited, .tagline .stickied-tagline{
+																																																								         color: #44AA44;
+																																																									   }
+																																																									     #NERFail .nextprev a{
+																																																									         background-color: #333;
+																																																										     border-color: #222;
+																																																										       }
+																																																										         .bottommenu .updated{
+																																																											     color: #386FA6;
+																																																											       }
+																																																											         .footer-parent{
+																																																												     border-top: 1px solid #333;
+																																																												         background-color: #444;
+																																																													   }
+																																																													     .footer{
+																																																													         background-color: #393939;
+																																																														     border-color: #333;
+																																																														         color: #fff;
+																																																															   }
+																																																															     .footer .col, .flat-vert.title{
+																																																															         border-color: #fff;
+																																																																     color: #fff;
+																																																																       }
+																																																																         .footer .col .choice{
+																																																																	     color: #95e5ff;
+																																																																	       }
+																																																																	         #sr-header-area a.RESShortcutsCurrentSub, #RESSubredditGroupDropdown .RESShortcutsCurrentSub a{
+																																																																		     color: #95e5ff !important;
+																																																																		       }
+																																																																		         .pagename a{
+																																																																			     color: #fff;
+																																																																			       }
+																																																																			         .debuginfo, .RESSubscriptionButton, #RESShortcutsEditContainer, .multi-selector.hover-bubble.anchor-right, #RESAccountSwitcherIcon, .listing-chooser, .RESBigEditorPop{
+																																																																				     display: none !important;
+																																																																				       }
+																																																																				         .infobar, #searchexpando{
+																																																																					     background-color: #444;
+																																																																					         border-color: #333;
+																																																																						     border-radius: 0px;
+																																																																						         border-right: none;
+																																																																							     border-left: none;
+																																																																							       }
+																																																																							         #moresearchinfo{
+																																																																								     border: none;
+																																																																								       }
+																																																																								         .subButtons{
+																																																																									     padding-left: 30px;
+																																																																									       }
+																																																																									         .fancy-toggle-button .active.remove, .RESshortcutside.remove, .RESDashboardToggle.remove{
+																																																																										     background: #386FA6;
+																																																																										         color: #fff;
+																																																																											     border-color: #000;
+																																																																											         border-radius: 10px;
+																																																																												   }
+																																																																												     .fancy-toggle-button .active.add, .RESshortcutside, .RESshortcutside:hover, .RESDashboardToggle{
+																																																																												         background: #55AAFF;
+																																																																													     color: #fff;
+																																																																													         border-color: #000;
+																																																																														     border-radius: 10px;
+																																																																														       }
+																																																																														         #header-bottom-right{
+																																																																															     background-color: #444;
+																																																																															         border-color: #000;
+																																																																																     border: 1px solid #000;
+																																																																																         border-right: none;
+																																																																																	   }
+																																																																																	     .RES-keyNav-activeElement, .commentarea .RES-keyNav-activeElement .md, .commentarea .RES-keyNav-activeElement.entry .noncollapsed, .RES-keyNav-activeElement.activeElement{
+																																																																																	         background-color: rgba(0,0,0,0) !important;
+																																																																																		   }
+																																																																																		     #header-bottom-right a:link, #header-bottom-right a:visited{
+																																																																																		         color: #95e5ff;
+																																																																																			   }
+																																																																																			     #userbarToggle{
+																																																																																			         background-color: #333;
+																																																																																				     border-color: #000;
+																																																																																				         border-left: 1px solid #000;
+																																																																																					     border-radius: 4px;
+																																																																																					       }
+																																																																																					         .link .usertext .md{
+																																																																																						     background-color: #444;
+																																																																																						         border-color: #393939;
+																																																																																							   }
+																																																																																							     .linkinfo{
+																																																																																							         background-color: #444;
+																																																																																								     border-color: #333;
+																																																																																								         border-right: none;
+																																																																																									     border-left: none;
+																																																																																									         border-radius: 0px;
+																																																																																										   }
+																																																																																										     body.with-listing-chooser.listing-chooser-collapsed > .content, body.with-listing-chooser.listing-chooser-collapsed .footer-parent, .content{
+																																																																																										         margin-left: 0px;
+																																																																																											   }
+																																																																																											     
+																																																																																											       span.score{
+																																																																																											           color: #fff;
+																																																																																												     }
+																																																																																												       span.score.likes{
+																																																																																												           color: #95e5ff;
+																																																																																													     }
+																																																																																													       span.score.dislikes{
+																																																																																													           color: #386FA6;
+																																																																																														     }
+																																																																																														       .comment .md a:visited{
+																																																																																														           color: #386FA6 !important;
+																																																																																															     }
+																																																																																															       .morecomments a{
+																																																																																															           color: #336699 !important;
+																																																																																																     }
+																																																																																																       .comment,
+																																																																																																         .comment .comment .comment,
+																																																																																																	   .comment .comment .comment .comment .comment,
+																																																																																																	     .comment .comment .comment .comment .comment .comment .comment,
+																																																																																																	       .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+																																																																																																	         .res-commentBoxes .content .comment,
+																																																																																																		   .res-commentBoxes .content .comment .comment .comment,
+																																																																																																		     .res-commentBoxes .content .comment .comment .comment .comment .comment,
+																																																																																																		       .res-commentBoxes .content .comment .comment .comment .comment .comment .comment .comment,
+																																																																																																		         .res-commentBoxes .content .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+																																																																																																			   background-color: #444 !important;
+																																																																																																			       border-color: #333 !important;
+																																																																																																			         }
+																																																																																																				   .comment .comment,
+																																																																																																				     .comment .comment .comment .comment,
+																																																																																																				       .comment .comment .comment .comment .comment .comment,
+																																																																																																				         .comment .comment .comment .comment .comment .comment .comment .comment,
+																																																																																																					   .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+																																																																																																					     .res-commentBoxes .content .comment .comment,
+																																																																																																					       .res-commentBoxes .content .comment .comment .comment .comment,
+																																																																																																					         .res-commentBoxes .content .comment .comment .comment .comment .comment .comment,
+																																																																																																						   .res-commentBoxes .content .comment .comment .comment .comment .comment .comment .comment .comment,
+																																																																																																						     .res-commentBoxes .content .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+																																																																																																						       background-color: #333!important;
+																																																																																																						           border-color: #222 !important;
+																																																																																																							     }
+																																																																																																							       .md code, .md pre, .usertext-edit textarea code, .usertext-edit textarea pre{
+																																																																																																							           background-color: #666;
+																																																																																																								       border-color: #555;
+																																																																																																								           font-family: "DejaVuSansMono";
+																																																																																																									       font-size: 0.8em;
+																																																																																																									         }
+																																																																																																										   #search input[type="text"]{
+																																																																																																										       border-color: #333;
+																																																																																																										           border-right: none;
+																																																																																																											       border-left: none;
+																																																																																																											         }
+																																																																																																												   .markhelp .md tr:first-child{
+																																																																																																												       background-color: #555 !important;
+																																																																																																												         }
+																																																																																																													   .markhelp .md tr{
+																																																																																																													       background-color: #444;
+																																																																																																													         }
+																																																																																																														   .usertext .markhelp tr, .usertext .markhelp td{
+																																																																																																														       border-color: #333;
+																																																																																																														         }
+																																																																																																															   .md blockquote, .md del, .usertext-edit textarea blockquote, .usertext-edit textarea del{
+																																																																																																															       color: #BBB;
+																																																																																																															           border-left: 2px solid #AAA;
+																																																																																																																     }
+																																																																																																																       .res .usertext .usertext-edit .livePreview,
+																																																																																																																       .res .usertext .usertext-edit .livePreview .md{
+																																																																																																																           background: #444 no-repeat fixed center !important;
+																																																																																																																	     }
+																																																																																																																	       .RESDialogSmall.livePreview{
+																																																																																																																	           background: #444 !important;
+																																																																																																																		       border-color: #222 !important;
+																																																																																																																		         }
+																																																																																																																			   .livePreview h3{
+																																																																																																																			       background: #555 !important;
+																																																																																																																			           color: #fff !important;
+																																																																																																																				       border-color: #222 !important;
+																																																																																																																				         }
+																																																																																																																					   .usertext .md textarea{
+																																																																																																																					       background: #444 !important;
+																																																																																																																					           border: 1px solid #222 !important;
+																																																																																																																						     }
+																																																																																																																						       #userbarToggle, .gearIcon, #sr-header-area, #REScommentNavToggle, .markdownEditor .edit-btn:not(.btn-macro), .commentingAs, .RESMacroWrappingSpan{
+																																																																																																																						           display: none;
+																																																																																																																							     }
+																																																																																																																							       .RES-keyNav-activeElement, .RES-keyNav-activeElement .md-container{
+																																																																																																																							           background: none !important;
+																																																																																																																								     }
+																																																																																																																								       #header-bottom-right{
+																																																																																																																								           top: 15px !important;
+																																																																																																																									       height: 25px !important;
+																																																																																																																									           border: none !important;
+																																																																																																																										       background: none !important;
+																																																																																																																										           
+																																																																																																																											     }
+																																																																																																																											       #header-img{
+																																																																																																																											           background-image: none !important;
+																																																																																																																												       text-indent: 0px !important;
+																																																																																																																												           visibility: hidden !important;
+																																																																																																																													       height: 30px !important;
+																																																																																																																													           width: 90px !important;
+																																																																																																																														     }
+																																																																																																																														       #header-img:before{
+																																																																																																																														           margin-left: 10px !important;
+																																																																																																																															       content: "reddit" !important;
+																																																																																																																															           visibility: visible !important;
+																																																																																																																																       color: #FFF !important;
+																																																																																																																																           font-size: 32px !important;
+																																																																																																																																	       text-shadow: 1px 1px 0px #000 !important;
+																																																																																																																																	         }
+																																																																																																																																		   .RESCharCounter:before{
+																																																																																																																																		       content: "Character count: " !important;
+																																																																																																																																		         }
+																																																																																																																																			   .panestack-title{
+																																																																																																																																			       border-bottom: 1px solid #555;
+																																																																																																																																			         }
+																																																																																																																																				   .profile-page .thing .title, .messages-page .thing .title{
+																																																																																																																																				       color: #55aaff !important;
+																																																																																																																																				         }
+																																																																																																																																					   .voteWeight{
+																																																																																																																																					       background-color: rgba(0,0,0,0) !important;
+																																																																																																																																					         }
+																																																																																																																																						 }

@@ -1,0 +1,200 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+ 
+ @-moz-document url-prefix("https://apis.google.com/u/0/b/"){
+  
+    @-moz-document regexp("https://apis\\.google\\.com/u/0/b/[^/]*/widget/render/comments?*"){
+     
+           body{
+	    
+	              background-color: #333 !important;
+		       
+		             }
+			      
+			            .yDa{
+				     
+				               background-color: #222222 !important;
+					        
+						      }
+						       
+						             .yJa{
+							      
+							                background-color: #444444 !important;
+									 
+									       }
+									        
+										      .mj{
+										       
+										                 background-color: #333 !important;
+												  
+												        }
+													 
+													       .BJa{
+													        
+														          background-color: #444444 !important;
+															   
+															         }
+																  
+																        .DJa{
+																	 
+																	           background-color: #444444 !important;
+																		    
+																		              color: #CCCCCC !important;
+																			       
+																			             }
+																				      
+																				            .dn{
+																					     
+																					               color: #FFFFFF !important;
+																						        
+																							      }
+																							       
+																							             .Ve, .Rg, .Rg.o-U-s, .Ve .dk, .gK .dk{
+																								      
+																								                color: #BBBBBB !important;
+																										 
+																										       }
+																										        
+																											      .E5, .e4{
+																											       
+																											                 background-color: #444 !important;
+																													  
+																													            color: #FFFFFF !important;
+																														     
+																														               border-color: #222 !important;
+																															        
+																																      }
+																																       
+																																             .Caa{
+																																	      
+																																	                display: none !important;
+																																			 
+																																			       }
+																																			               .Kgb, .Y8b .TD{
+																																				                   background-color: #444 !important;
+																																						               color: #FFAA00 !important;
+																																							               }
+																																								        
+																																									      .cp{
+																																									       
+																																									                 background-color: #000000!important;
+																																											  
+																																											            color: #FFFFFF !important;
+																																												                border-color: #000000 !important;
+																																														 
+																																														       }
+																																														               .d-A, .d-Kl{
+																																															                   color: #FFF !important;
+																																																	               background-color: #222 !important;
+																																																		               }
+																																																			               .d-A-yb, .d-A-u{
+																																																				                   border: none !important;
+																																																						               color: #FFFFFF !important;
+																																																							                   background-color: #222 !important;
+																																																									           }
+																																																										           .vDc{
+																																																											               display: none !important;
+																																																												               }
+																																																													        
+																																																														      .M7Fqc{
+																																																														       
+																																																														                 color: #FFFFFF !important;
+																																																																  
+																																																																        }
+																																																																	 
+																																																																	       .Aq{
+																																																																	        
+																																																																		          color: #FFFFFF !important;
+																																																																			   
+																																																																			         }
+																																																																				         .d-Rc, .G-q, .G-q-B, .G-q-O{
+																																																																					             background-color: #222 !important;
+																																																																						                 color: #FFF !important;
+																																																																								             box-shadow: none !important;
+																																																																									             }
+																																																																										      
+																																																																										            .ot-hashtag, .proflink{
+																																																																											     
+																																																																											               color: #999999 !important;
+																																																																												        
+																																																																													      }
+																																																																													       
+																																																																													             .sk{
+																																																																														      
+																																																																														                background-color: #222222!important;
+																																																																																 
+																																																																																           border-color: #000 !important;
+																																																																																	    
+																																																																																	              color: #FFFFFF !important;
+																																																																																		       
+																																																																																		             }
+																																																																																			      
+																																																																																			            .r3 .r0{
+																																																																																				     
+																																																																																				               background-image: url("") !important;
+																																																																																					        
+																																																																																						          background-color: #222222 !important;
+																																																																																							   
+																																																																																							             border: 0px solid #000000 !important;
+																																																																																								      
+																																																																																								                color: #FFFFFF !important;
+																																																																																										 
+																																																																																										       }
+																																																																																										        
+																																																																																											      .r3 .PA{
+																																																																																											       
+																																																																																											                 background-image: url("") !important;
+																																																																																													  
+																																																																																													            background-color: #222222 !important;
+																																																																																														     
+																																																																																														               border: 0px solid #000000 !important;
+																																																																																															        
+																																																																																																          color: #FFFFFF !important;
+																																																																																																	   
+																																																																																																	         }
+																																																																																																		  
+																																																																																																		        .Uv{
+																																																																																																			 
+																																																																																																			           background-image: url("") !important;
+																																																																																																				    
+																																																																																																				              padding-left: 0px !important;
+																																																																																																					       
+																																																																																																					             }
+																																																																																																						      
+																																																																																																						            .xN.d-y-r-c, .xN.d-y-r-c.d-y-r-c-eb{
+																																																																																																							     
+																																																																																																							               background-color: #222222 !important;
+																																																																																																								        
+																																																																																																									          border-color: #000 !important;
+																																																																																																										   
+																																																																																																										             color: #FFFFFF !important;
+																																																																																																											      
+																																																																																																											            }
+																																																																																																												     
+																																																																																																												           .xN .d-y-r-c-ha, .Pga.d-A .d-A-B{
+																																																																																																													    
+																																																																																																													              color: #FFFFFF !important;
+																																																																																																														       
+																																																																																																														             }
+																																																																																																															      
+																																																																																																															            .d-r{
+																																																																																																																     
+																																																																																																																               background-color: #222222 !important;
+																																																																																																																	        
+																																																																																																																		          color: #FFFFFF !important;
+																																																																																																																			   
+																																																																																																																			             border-color: #000 !important;
+																																																																																																																				      
+																																																																																																																				            }
+																																																																																																																					     
+																																																																																																																					           .Hma .Pga.d-A-yb{
+																																																																																																																						    
+																																																																																																																						              background-color: #111111 !important;
+																																																																																																																							       
+																																																																																																																							             }
+																																																																																																																								             .Dy, .Ey{
+																																																																																																																									                 display: none !important;
+																																																																																																																											             }
+																																																																																																																												      
+																																																																																																																												        }
+																																																																																																																													 
+																																																																																																																													 }

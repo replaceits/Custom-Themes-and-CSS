@@ -1,0 +1,106 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+ 
+ @-moz-document url-prefix("https://mail.google.com/mail"){
+     .mq{
+             display: none !important;
+	         }
+		     .ma{
+		             visibility: hidden !important;
+			         }
+				     .ul{
+				             display: none !important;
+					         }
+						     .gbqfb{
+						             background: #3C3C3C !important;
+							         }
+								    
+								        .gbqfif{
+									        background: #0c0c0c !important;
+										        color: #DCDCCC !important;
+											    }
+											        .gb_Ib, gb_Ac{
+												        background: #1c1c1c !important;
+													    }
+													        .gbqfqw{
+														        border: none !important;
+															        background: #0c0c0c !important;
+																        box-shadow: none !important;
+																	    }
+																	        .ZF-z6, .ZF-zT, .ZF-Av .lJ, .ZF-Av .lN{
+																		        background: #0c0c0c !important;
+																			        border: none !important;
+																				        top: 2px !important;
+																					        width: 304px !important;
+																						        color: #DCDCCC !important;
+																							    }
+																							        .nr, .dI, .Ar{
+																								        border: none !important;
+																									        color: #DCDCCC !important;
+																										        background: #1c1c1c !important;
+																											    }
+																											        .w-Pv, .ZG{
+																												        background: #0c0c0c !important;
+																													        color: #DCDCCC !important;
+																														    }
+																														        input{
+																															        background: #1c1c1c !important;
+																																        border: none !important;
+																																	    }
+																																	        .T-I-ax7{
+																																		        background: #1c1c1c !important;
+																																			        color: #DCDCCC !important;
+																																				        border: none !important;
+																																					        border-radius: 0px !important;
+																																						    }
+																																						        .J-N{
+																																							        background: #0c0c0c !important;
+																																								        border: none !important;
+																																									        box-shadow: none !important;
+																																										        outline: none !important;
+																																											    }
+																																											        .T-I-atl{
+																																												        background: #2c2c2c !important;
+																																													        border: none !important;
+																																														        border-radius: 0px !important;
+																																															    }
+																																															        .ZC{
+																																																        visibility: hidden !important;
+																																																	        top: 0px !important;
+																																																		        left: 9px !important;
+																																																			    }
+																																																			        .ZC:before{
+																																																				        content: "Search" !important;
+																																																					        visibility: visible !important;
+																																																						    }
+																																																						        .acM{
+																																																							        color: #1B7FCC !important;
+																																																								    }
+																																																								        .Xp{
+																																																									        display: none !important;
+																																																										    }
+																																																										        .zA{
+																																																											        background: #2c2c2c !important;
+																																																												        border-bottom: 1px solid #000 !important;
+																																																													    }
+																																																													        .pH, .T-KT, .WA{
+																																																														        display: none !important;
+																																																															    }
+																																																															        td.yX{
+																																																																        padding-left: 0px !important;
+																																																																	        border-bottom: 1px solid #000 !important;
+																																																																		        color: #DCDCCC !important;
+																																																																			    }
+																																																																			        .a4W, .xY{
+																																																																				        border-bottom: 1px solid #000 !important;
+																																																																					        color: #DCDCCC !important;
+																																																																						    }
+																																																																						        .G-atb{
+																																																																							        background: #2c2c2c !important;
+																																																																								        border-bottom: 1px solid #000 !important;
+																																																																									        margin-top: 0px !important;
+																																																																										    }
+																																																																										        .nH{
+																																																																											        background: #1c1c1c !important;
+																																																																												        border: none !important;
+																																																																													    }
+																																																																													    }

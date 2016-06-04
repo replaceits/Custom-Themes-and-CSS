@@ -1,0 +1,772 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+ 
+ @-moz-document domain("youtube.com") {
+  
+    body{
+     
+           background-color: #222222 !important;
+	    
+	          color: #FFFFFF !important;
+		   
+		     }
+		       .comments .paginator{
+		           background-image: linear-gradient(to top, #111 0px, #151515 100%) !important;
+			       border-color: #000 !important;
+			           color: #fff !important;
+				     }
+				       .all-comments, .all-comments a{
+				           background-color: #333 !important;
+					     }
+					       .yt-ui-ellipsis{
+					           background-color: #333 !important;
+						     }
+						       .callout{
+						           display: none !important;
+							     }
+							       .comments .channel-owner .comment-header .user-name{
+							           background-color: #151515 !important;
+								       border-radius: 5px !important;
+								         }
+									   
+									     .comment-footer-actions .separator{
+									         visibility: hidden !important;
+										   }
+										      
+										        .under-movie-div-button{
+											        display: none !important;
+												    }
+												     
+												       #page-container{
+												        
+													      border-top: none !important;
+													       
+													         }
+														   .comments .comment-item .mod-button .default-state.sprite_like, .comments .comment-item .mod-button .default-state.sprite_dislike, .comments .comment-item:hover .mod-button .default-state.sprite_like, .comments .comment-item:hover .mod-button .default-state.sprite_dislike, .comments .mod-button .default-state{
+														       opacity: 1 !important;
+														         }
+															   
+															     #yt-comments-sb-standin .box, .yt-commentbox-text{
+															         background-color: #444 !important;
+																     border-color: #222 !important;
+																         color: #fff !important;
+																	   }
+																	     
+																	       .guide-item{
+																	        
+																		      color: #FFFFFF !important;
+																		       
+																		          
+																			    }
+																			     
+																			       .guide-quick-filter{
+																			        
+																				      background-color: #000000 !important;
+																				       
+																				             color: #FFFFFF !important;
+																					      
+																					            border-color: #000 !important;
+																						     
+																						       }
+																						        
+																							  .yt-uix-form-input-text::-moz-placeholder{
+																							   
+																							         color: #DDDDDD !important;
+																								        
+																									 
+																									   }
+																									       .pl-video, #pl-video-list > li:before{
+																									               border-color: #000 !important;
+																										               color: #FFF !important;
+																											           }
+																												       .yt-badge-list{
+																												               display: none !important;
+																													           }
+																														       .pl-video-detail-container .pl-video-time{
+																														               color: #FFF !important;
+																															               margin: 0 0 !important;
+																																           }
+																																	       .pl-header .pl-header-description{
+																																	               color: #CCC !important;
+																																		           }
+																																			       .pl-header .pl-header-details{
+																																			               color: #FFF !important;
+																																				           }
+																																					       .c4-welcome-secondary-col, .c4-welcome-primary-col, .welcome.c4-spotlight-module-component{
+																																					               border-color: #000 !important;
+																																						           }
+																																							      
+																																							          .guide-item.guide-item-selected, .guide-item.guide-item-selected:hover, .guide-item.guide-item-selected .yt-deemphasized-text, .guide-item.guide-item-selected:hover .yt-deemphasized-text, .guide-collection-item .guide-item.guide-item-selected{
+																																								          background-color: #2793E6 !important;
+																																									          text-shadow: none !important;
+																																										      }
+																																										         
+																																											     .yt-subscription-button-subscriber-count-branded-vertical:after, .yt-subscription-button-subscriber-count-unbranded-vertical:after, .yt-subscription-button-subscriber-count-branded-horizontal:after, .yt-subscription-button-subscriber-count-branded-horizontal:before, .yt-subscription-button-subscriber-count-unbranded-vertical:before{
+																																											             display: none !important;
+																																												         }
+																																													     .yt-subscription-button-subscriber-count-unbranded-horizontal, .yt-subscription-button-subscriber-count-unbranded-vertical,.yt-subscription-button-subscriber-count-branded-horizontal, .yt-subscription-button-subscriber-count-branded-vertical{
+																																													             border-color: #000 !important;
+																																														             background-color: #222 !important;
+																																															             color: #FFF !important;
+																																																         }
+																																																	     .about-stat, .about-description, .branded-page-box-padding {
+																																																	             color: #FFF !important;
+																																																		         }
+																																																			     .about-report-user{
+																																																			             color: #FFF !important;
+																																																				         }
+																																																					  
+																																																					    .guide-quick-filter-clear{
+																																																					     
+																																																					           display: none !important;
+																																																						    
+																																																						      }
+																																																						          .yt-uix-button-menu, .yt-uix-button-menu .yt-uix-button-menu-item{
+																																																							          background-color: #333 !important;
+																																																								          color: #FFF !important;
+																																																									          border-color: #000 !important;
+																																																										          }
+																																																											      #appbar-guide-menu, .guide-flyout{
+																																																											              background-color: #333 !important;
+																																																												              border-color: #000 !important;
+																																																													              }
+																																																														          .exp-appbar-onebar #masthead-positioner:hover #appbar-guide-button{
+																																																															          background-color: #222 !important;
+																																																																          border: none !important;
+																																																																	          color: #FFF !important;
+																																																																		      }
+																																																																		          #masthead-appbar{
+																																																																			          background-color: #2A2A2A !important;
+																																																																				          border-color: #000 !important;
+																																																																					      }
+																																																																					       
+																																																																					         li.guide-section h3{
+																																																																						  
+																																																																						        color: #1B7FCC !important;
+																																																																							 
+																																																																							   }
+																																																																							    
+																																																																							      #guide-container h3{
+																																																																							       
+																																																																							             text-transform: none !important;
+																																																																								      
+																																																																								        }
+																																																																									 
+																																																																									   .branded-page-v2-primary-col{
+																																																																									    
+																																																																									          background-color: #333 !important;
+																																																																										   
+																																																																										         border-bottom-color: #000000 !important;
+																																																																											  
+																																																																											        border-left-color: #000000 !important;
+																																																																												 
+																																																																												       border-right-color: #000000 !important;
+																																																																												        
+																																																																													  }
+																																																																													   
+																																																																													     .feed-item-container .feed-item-main{
+																																																																													      
+																																																																													            color: #FFFFFF !important;
+																																																																														     
+																																																																														           border-bottom-color: #000000 !important;
+																																																																															    
+																																																																															      }
+																																																																															       
+																																																																															         .yt-lockup{
+																																																																																  
+																																																																																        color: #DDDDDD !important;
+																																																																																	 
+																																																																																	   }
+																																																																																	    
+																																																																																	      a{
+																																																																																	       
+																																																																																	             color: #2793E6 !important;
+																																																																																		      
+																																																																																		        }
+																																																																																			 
+																																																																																			   .feed-header{
+																																																																																			    
+																																																																																			          border-bottom-color: #000000 !important;
+																																																																																				   
+																																																																																				         background-color: #222222 !important;
+																																																																																					  
+																																																																																					        padding-top: 5px !important;
+																																																																																						 
+																																																																																						       position: relative !important;
+																																																																																						        
+																																																																																							      top: -10px !important;
+																																																																																							       
+																																																																																							         }
+																																																																																								  
+																																																																																								    #yt-masthead-container{
+																																																																																								     
+																																																																																								           background-color: #222222 !important;
+																																																																																									    
+																																																																																									          border-bottom-color: #000000 !important;
+																																																																																										   
+																																																																																										     }
+																																																																																										      
+																																																																																										        a.yt-uix-button.yt-uix-button-epic-nav-item, button.yt-uix-button-epic-nav-item, .epic-nav-item{
+																																																																																											 
+																																																																																											       border-right: 1px solid #000000 !important;
+																																																																																											        
+																																																																																												      border-left: 1px solid #000000 !important;
+																																																																																												       
+																																																																																												             border-top: 1px solid #000000 !important;
+																																																																																													      
+																																																																																													        }
+																																																																																														   
+																																																																																														       .site-center-aligned .yt-card{
+																																																																																														               background-color: #333 !important;
+																																																																																															              
+																																																																																																          }
+																																																																																																	   
+																																																																																																	    
+																																																																																																	     
+																																																																																																	       .epic-nav-dropdown-group:hover,
+																																																																																																	        
+																																																																																																		  a.yt-uix-button-epic-nav-item:hover,
+																																																																																																		   
+																																																																																																		     a.yt-uix-button-epic-nav-item.selected,
+																																																																																																		      
+																																																																																																		        a.yt-uix-button-epic-nav-item.yt-uix-button-toggled,
+																																																																																																			 
+																																																																																																			   button.yt-uix-button-epic-nav-item:hover,
+																																																																																																			    
+																																																																																																			      button.yt-uix-button-epic-nav-item.selected,
+																																																																																																			       
+																																																																																																			         button.yt-uix-button-epic-nav-item.yt-uix-button-toggled,
+																																																																																																				  
+																																																																																																				    .epic-nav-item:hover, .epic-nav-item.selected,
+																																																																																																				     
+																																																																																																				       .epic-nav-item.yt-uix-button-toggled, .epic-nav-item-heading{
+																																																																																																				        
+																																																																																																					      border-color: #000 !important;
+																																																																																																					       
+																																																																																																					             border-right: 1px solid #000000 !important;
+																																																																																																						      
+																																																																																																						            border-left: 1px solid #000000 !important;
+																																																																																																							     
+																																																																																																							           border-top: 1px solid #000000 !important;
+																																																																																																								    
+																																																																																																								          color: #FFFFFF !important;
+																																																																																																									   
+																																																																																																									     }
+																																																																																																									      
+																																																																																																									       
+																																																																																																									        
+																																																																																																										  .yt-lockup-mini .yt-lockup-title{
+																																																																																																										   
+																																																																																																										         color: #FFFFFF !important;
+																																																																																																											  
+																																																																																																											    }
+																																																																																																											     
+																																																																																																											       .yt-uix-button-default, .yt-uix-button-default[disabled], .yt-uix-button-default[disabled]:hover, .yt-uix-button-default[disabled]:active, .yt-uix-button-default[disabled]:focus{
+																																																																																																											        
+																																																																																																												      background-color: #333 !important;
+																																																																																																												       
+																																																																																																												             border-color: #000000 !important;
+																																																																																																													      
+																																																																																																													        }
+																																																																																																														 
+																																																																																																														   #masthead-search-terms{
+																																																																																																														    
+																																																																																																														          background-color: #000000 !important;
+																																																																																																															   
+																																																																																																															         color: #FFFFFF !important;
+																																																																																																																  
+																																																																																																																    }
+																																																																																																																     
+																																																																																																																       .masthead-search-terms-border{
+																																																																																																																        
+																																																																																																																	      border-color: #000 !important;
+																																																																																																																	       
+																																																																																																																	             box-shadow: 0 1px 2px #000000 inset !important;
+																																																																																																																		      
+																																																																																																																		        }
+																																																																																																																			 
+																																																																																																																			   #masthead-search-terms input{
+																																																																																																																			    
+																																																																																																																			          color: #FFFFFF !important;
+																																																																																																																				   
+																																																																																																																				     }
+																																																																																																																				         #footer .yt-picker{
+																																																																																																																					         background-color: #444444 !important;
+																																																																																																																						         color: #FFFFFF !important;
+																																																																																																																							     }
+																																																																																																																							         .yt-picker-header h3.yt{
+																																																																																																																								         color: #FFFFFF !important;
+																																																																																																																									     }
+																																																																																																																									        
+																																																																																																																										    .yt-default .yt-notes, p.yt-notes{
+																																																																																																																										            color: #DDDDDD !important;
+																																																																																																																											        }
+																																																																																																																												 
+																																																																																																																												   .gssb_m{
+																																																																																																																												    
+																																																																																																																												          background-color: #222222 !important;
+																																																																																																																													   
+																																																																																																																													         color: #FFFFFF !important;
+																																																																																																																														  
+																																																																																																																														    }
+																																																																																																																														     
+																																																																																																																														       .gssb_e{
+																																																																																																																														        
+																																																																																																																															      border: 1px solid #000000 !important;
+																																																																																																																															       
+																																																																																																																															             box-shadow: 0 2px 4px rgba(0, 0, 0, 5) !important;
+																																																																																																																																      
+																																																																																																																																        }
+																																																																																																																																	 
+																																																																																																																																	   .gssb_i td{
+																																																																																																																																	    
+																																																																																																																																	          background: none repeat scroll 0 0 #111111 !important;
+																																																																																																																																		   
+																																																																																																																																		         border-top: 1px solid #000000 !important;
+																																																																																																																																			  
+																																																																																																																																			        border-bottom: 1px solid #000000 !important;
+																																																																																																																																				 
+																																																																																																																																				   }
+																																																																																																																																				    
+																																																																																																																																				      .yt-uix-button-subscribe-unbranded, .yt-uix-button-subscribe-unbranded[disabled], .yt-uix-button-subscribe-unbranded[disabled]:hover, .yt-uix-button-subscribe-unbranded[disabled]:active, .yt-uix-button-subscribe-unbranded[disabled]:focus{
+																																																																																																																																				       
+																																																																																																																																				             background-image: linear-gradient(to top, #222222 0px, #444444 100%) !important;
+																																																																																																																																					      
+																																																																																																																																					            border-color: #000 !important;
+																																																																																																																																						     
+																																																																																																																																						           color: #FFFFFF !important;
+																																																																																																																																							    
+																																																																																																																																							      }
+																																																																																																																																							       
+																																																																																																																																							         .branded-page-v2-masthead-ad-header .branded-page-v2-secondary-column-hidden .branded-page-v2-primary-col, .branded-page-v2-masthead-ad-header.masthead-ad-expanded .branded-page-v2-primary-col{
+																																																																																																																																								  
+																																																																																																																																								        border-top: none !important;
+																																																																																																																																									 
+																																																																																																																																									   }
+																																																																																																																																									    
+																																																																																																																																									      .compact-shelf .yt-uix-button-shelf-slider-pager{
+																																																																																																																																									       
+																																																																																																																																									             background-color: #444444 !important;
+																																																																																																																																										      
+																																																																																																																																										        }
+																																																																																																																																											 
+																																																																																																																																											   .compact-shelf .yt-uix-shelfslider-prev-arrow, .compact-shelf .yt-uix-shelfslider-next-arrow{
+																																																																																																																																											    
+																																																																																																																																											          opacity: 1 !important;
+																																																																																																																																												   
+																																																																																																																																												     }
+																																																																																																																																												      
+																																																																																																																																												        body #footer-container{
+																																																																																																																																													 
+																																																																																																																																													       background-color: #444444 !important;
+																																																																																																																																													        
+																																																																																																																																														      border-top-color: #000000 !important;
+																																																																																																																																														       
+																																																																																																																																														             color: #FFFFFF !important;
+																																																																																																																																															      
+																																																																																																																																															        }
+																																																																																																																																																 
+																																																																																																																																																   #footer-main{
+																																																																																																																																																    
+																																																																																																																																																          border-bottom-color: #000000 !important;
+																																																																																																																																																	   
+																																																																																																																																																	     }
+																																																																																																																																																	      
+																																																																																																																																																	        .copyright{
+																																																																																																																																																		 
+																																																																																																																																																		       color: #FFFFFF !important;
+																																																																																																																																																		        
+																																																																																																																																																			  }
+																																																																																																																																																			   
+																																																																																																																																																			     .yt-uix-button-default, .yt-uix-button-default[disabled], .yt-uix-button-default[disabled]:hover, .yt-uix-button-default[disabled]:active, .yt-uix-button-default[disabled]:focus{
+																																																																																																																																																			      
+																																																																																																																																																			            color: #FFFFFF !important;
+																																																																																																																																																				     
+																																																																																																																																																				       }
+																																																																																																																																																				        
+																																																																																																																																																					  #watch7-content{
+																																																																																																																																																					   
+																																																																																																																																																					         background-color: #333 !important;
+																																																																																																																																																						  
+																																																																																																																																																						    }
+																																																																																																																																																						     
+																																																																																																																																																						       #watch7-headline, #watch7-user-header{
+																																																																																																																																																						        
+																																																																																																																																																							      background-color: #444444 !important;
+																																																																																																																																																							       
+																																																																																																																																																							             color: #FFFFFF !important;
+																																																																																																																																																								      
+																																																																																																																																																								            border-left: 1px solid #000 !important;
+																																																																																																																																																									     
+																																																																																																																																																									           border-right: 1px solid #000 !important;
+																																																																																																																																																										    
+																																																																																																																																																										      }
+																																																																																																																																																										       
+																																																																																																																																																										         .yt-uix-expander-head{
+																																																																																																																																																											  
+																																																																																																																																																											        color: #FFFFFF !important;
+																																																																																																																																																												 
+																																																																																																																																																												   }
+																																																																																																																																																												    
+																																																																																																																																																												      .metadata-inline, .watch-stage-mode #theater-background{
+																																																																																																																																																												       
+																																																																																																																																																												             background-color: #222222 !important;
+																																																																																																																																																													      
+																																																																																																																																																													        }
+																																																																																																																																																														  .yt-card{
+																																																																																																																																																														      box-shadow: none !important;
+																																																																																																																																																														        }
+																																																																																																																																																															  
+																																																																																																																																																															    #action-panel-details.yt-card{
+																																																																																																																																																															        box-shadow: none !important;
+																																																																																																																																																																    border: 1px solid #000 !important;
+																																																																																																																																																																        border-right: none !important;
+																																																																																																																																																																	    border-left: none !important;
+																																																																																																																																																																	      }
+																																																																																																																																																																	        
+																																																																																																																																																																		  #watch7-main-container #watch7-main #watch7-content{
+																																																																																																																																																																		      border: 1px solid #000 !important;
+																																																																																																																																																																		        }
+																																																																																																																																																																			 
+																																																																																																																																																																			   #watch7-action-panels #watch7-action-panel-footer{
+																																																																																																																																																																			    
+																																																																																																																																																																			          background-color: #222222 !important;
+																																																																																																																																																																				   
+																																																																																																																																																																				     }
+																																																																																																																																																																				      
+																																																																																																																																																																				        .yt-horizontal-rule{
+																																																																																																																																																																					 
+																																																																																																																																																																					       border-top-color: #222222 !important;
+																																																																																																																																																																					        
+																																																																																																																																																																						  }
+																																																																																																																																																																						   
+																																																																																																																																																																						     .watch-view-count{
+																																																																																																																																																																						      
+																																																																																																																																																																						            color: #FFFFFF !important;
+																																																																																																																																																																							     
+																																																																																																																																																																							       }
+																																																																																																																																																																							        
+																																																																																																																																																																								  .video-extras-likes-dislikes, .video-extras-likes-dislikes .dislikes{
+																																																																																																																																																																								   
+																																																																																																																																																																								         color: #AAAAAA !important;
+																																																																																																																																																																									  
+																																																																																																																																																																									    }
+																																																																																																																																																																									      .yt-card .yt-uix-button-expander{
+																																																																																																																																																																									          border-color: #000 !important;
+																																																																																																																																																																										      border-right: none !important;
+																																																																																																																																																																										          border-left: none !important;
+																																																																																																																																																																											      border-bottom: none !important;
+																																																																																																																																																																											        }
+																																																																																																																																																																												  
+																																																																																																																																																																												    .yt-card.yt-uix-expander .yt-uix-button-expander, .yt-card .yt-uix-expander .yt-uix-button-expander{
+																																																																																																																																																																												        margin: 10px -0px -15px -16px !important;
+																																																																																																																																																																													    width: 104% !important;
+																																																																																																																																																																													      }
+																																																																																																																																																																													        .yt-card .yt-uix-tabs{
+																																																																																																																																																																														    border-bottom: 1px solid #000 !important;
+																																																																																																																																																																														      }
+																																																																																																																																																																														       
+																																																																																																																																																																														         .yt-uix-button-subscribed-branded, .yt-uix-button-subscribed-branded[disabled], .yt-uix-button-subscribed-branded[disabled]:hover, .yt-uix-button-subscribed-branded[disabled]:active, .yt-uix-button-subscribed-branded[disabled]:focus, .yt-uix-button-subscribed-unbranded, .yt-uix-button-subscribed-unbranded[disabled], .yt-uix-button-subscribed-unbranded[disabled]:hover, .yt-uix-button-subscribed-unbranded[disabled]:active, .yt-uix-button-subscribed-unbranded[disabled]:focus{
+																																																																																																																																																																															  
+																																																																																																																																																																															        color: #FFFFFF !important;
+																																																																																																																																																																																 
+																																																																																																																																																																																       background-image: url("") !important;
+																																																																																																																																																																																        
+																																																																																																																																																																																	      background-color: #222222 !important;
+																																																																																																																																																																																	       
+																																																																																																																																																																																	             border-color: #000 !important;
+																																																																																																																																																																																		      
+																																																																																																																																																																																		        }
+																																																																																																																																																																																			 
+																																																																																																																																																																																			   #watch7-action-panels, #watch7-headline, #watch7-user-header, #watch8-action-buttons{
+																																																																																																																																																																																			    
+																																																																																																																																																																																			          border-color: #000 !important;
+																																																																																																																																																																																				   
+																																																																																																																																																																																				     }
+																																																																																																																																																																																				       .video-extras-sparkbar-dislikes{
+																																																																																																																																																																																				           background-color: #F44 !important;
+																																																																																																																																																																																					     }
+																																																																																																																																																																																					      
+																																																																																																																																																																																					        #watch7-action-buttons{
+																																																																																																																																																																																						 
+																																																																																																																																																																																						       border-color: #000 !important;
+																																																																																																																																																																																						        
+																																																																																																																																																																																							      border-bottom-color: #000000 !important;
+																																																																																																																																																																																							       
+																																																																																																																																																																																							         }
+																																																																																																																																																																																								  
+																																																																																																																																																																																								    #watch7-headline{
+																																																																																																																																																																																								     
+																																																																																																																																																																																								           border-top: 1px solid #000 !important;
+																																																																																																																																																																																									    
+																																																																																																																																																																																									      }
+																																																																																																																																																																																									       
+																																																																																																																																																																																									         #watch-description{
+																																																																																																																																																																																										  
+																																																																																																																																																																																										        color: #DDDDDD !important;
+																																																																																																																																																																																											 
+																																																																																																																																																																																											   }
+																																																																																																																																																																																											    
+																																																																																																																																																																																											      #watch-description-extras .title{
+																																																																																																																																																																																											       
+																																																																																																																																																																																											             color: #BBBBBB !important;
+																																																																																																																																																																																												      
+																																																																																																																																																																																												        }
+																																																																																																																																																																																													 
+																																																																																																																																																																																													   .yt-uix-button-text, .yt-uix-button-text[disabled], .yt-uix-button-content{
+																																																																																																																																																																																													    
+																																																																																																																																																																																													          color: #FFFFFF !important;
+																																																																																																																																																																																														   
+																																																																																																																																																																																														     }
+																																																																																																																																																																																														       
+																																																																																																																																																																																														         .yt-card .yt-uix-tabs .yt-uix-button:hover, .yt-card .yt-uix-tabs .yt-uix-button:active, .yt-card .yt-uix-tabs .yt-uix-button.yt-uix-button-active, .yt-card .yt-uix-tabs .yt-uix-button.yt-uix-button-toggled{
+																																																																																																																																																																																															     border-bottom-color: #167ac6 !important;
+																																																																																																																																																																																															       }
+																																																																																																																																																																																															         
+																																																																																																																																																																																																   .ytp-play-progress, .html5-progress-bar:focus .html5-scrubber-button, .html5-scrubber-button:active, .html5-scrubber-button:hover, .ytp-volume-slider-foreground::before{
+																																																																																																																																																																																																       background: #167ac6 none repeat scroll 0 0 !important;
+																																																																																																																																																																																																         }
+																																																																																																																																																																																																	   .html5-video-info-panel{
+																																																																																																																																																																																																	       color: #fff !important;
+																																																																																																																																																																																																	           background-color: rgba(32,32,32,0.5) !important;
+																																																																																																																																																																																																		     }
+																																																																																																																																																																																																		       
+																																																																																																																																																																																																		         .ytp-load-progress, .ytp-volume-slider-foreground::after{
+																																																																																																																																																																																																			     background-color: #555 !important;
+																																																																																																																																																																																																			       }
+																																																																																																																																																																																																			         
+																																																																																																																																																																																																				   .ytp-unloaded-progress, .ytp-progress-tooltip.with-thumbnail .ytp-progress-tooltip-thumbnail-container, .ytp-progress-tooltip{
+																																																																																																																																																																																																				       background-color: #333 !important;
+																																																																																																																																																																																																				         }
+																																																																																																																																																																																																					   .ytp-progress-tooltip-arrow{
+																																																																																																																																																																																																					       border-top-color: #333 !important;
+																																																																																																																																																																																																					         }
+																																																																																																																																																																																																						   .ytp-progress-tooltip-timestamp{
+																																																																																																																																																																																																						       width: 108px !important;
+																																																																																																																																																																																																						           padding: 0 !important;
+																																																																																																																																																																																																							       line-height: 13px !important;
+																																																																																																																																																																																																							         }
+																																																																																																																																																																																																								   .ytp-progress-tooltip-timestamp-container{
+																																																																																																																																																																																																								       height: 13px !important;
+																																																																																																																																																																																																								         }
+																																																																																																																																																																																																									   .html5-player-chrome{
+																																																																																																																																																																																																									       background-color: #222 !important;
+																																																																																																																																																																																																									         }
+																																																																																																																																																																																																										  #movie_player{
+																																																																																																																																																																																																										     border: 1px solid #000 !important;
+																																																																																																																																																																																																										      }
+																																																																																																																																																																																																										        
+																																																																																																																																																																																																											  #watch-discussion{
+																																																																																																																																																																																																											   
+																																																																																																																																																																																																											         border-color: #000 !important;
+																																																																																																																																																																																																												  
+																																																																																																																																																																																																												    }
+																																																																																																																																																																																																												     
+																																																																																																																																																																																																												       #watch7-sidebar{
+																																																																																																																																																																																																												        
+																																																																																																																																																																																																													      background-color: #333333 !important;
+																																																																																																																																																																																																													       
+																																																																																																																																																																																																													             border-right: 1px solid #000 !important;
+																																																																																																																																																																																																														      
+																																																																																																																																																																																																														            border-top: 1px solid #000 !important;
+																																																																																																																																																																																																															     
+																																																																																																																																																																																																															           border-bottom: 1px solid #000 !important;
+																																																																																																																																																																																																																    
+																																																																																																																																																																																																																          border-left: 1px solid #000 !important;
+																																																																																																																																																																																																																	   
+																																																																																																																																																																																																																	         color: #FFFFFF !important;
+																																																																																																																																																																																																																		  
+																																																																																																																																																																																																																		    }
+																																																																																																																																																																																																																		     
+																																																																																																																																																																																																																		       .video-list .video-list-item .title{
+																																																																																																																																																																																																																		        
+																																																																																																																																																																																																																			      color: #FFFFFF !important;
+																																																																																																																																																																																																																			       
+																																																																																																																																																																																																																			         }
+																																																																																																																																																																																																																				  
+																																																																																																																																																																																																																				    .c4-checklist-module{
+																																																																																																																																																																																																																				     
+																																																																																																																																																																																																																				           background-color: #444444 !important;
+																																																																																																																																																																																																																					    
+																																																																																																																																																																																																																					          border-color: #000000 !important;
+																																																																																																																																																																																																																						   
+																																																																																																																																																																																																																						     }
+																																																																																																																																																																																																																						      
+																																																																																																																																																																																																																						        .c4-checklist-module-title{
+																																																																																																																																																																																																																							 
+																																																																																																																																																																																																																							       color: #2793E6 !important;
+																																																																																																																																																																																																																							        
+																																																																																																																																																																																																																								  }
+																																																																																																																																																																																																																								   
+																																																																																																																																																																																																																								     body:not(.site-center-aligned) .c4-checklist-module .checklist-item{
+																																																																																																																																																																																																																								      
+																																																																																																																																																																																																																								            border-top: 1px solid #000000 !important;
+																																																																																																																																																																																																																									     
+																																																																																																																																																																																																																									       }
+																																																																																																																																																																																																																									        
+																																																																																																																																																																																																																										  body:not(.site-center-aligned) .c4-checklist-module .checklist-item:hover{
+																																																																																																																																																																																																																										   
+																																																																																																																																																																																																																										         background-color: #333333 !important;
+																																																																																																																																																																																																																											  
+																																																																																																																																																																																																																											    }
+																																																																																																																																																																																																																											     
+																																																																																																																																																																																																																											       .yt-uix-clickcard-card-content, .yt-uix-hovercard-card-content{
+																																																																																																																																																																																																																											        
+																																																																																																																																																																																																																												      background-color: #444444 !important;
+																																																																																																																																																																																																																												       
+																																																																																																																																																																																																																												             color: #FFFFFF !important;
+																																																																																																																																																																																																																													      
+																																																																																																																																																																																																																													        }
+																																																																																																																																																																																																																														 
+																																																																																																																																																																																																																														   .yt-uix-clickcard-card-border, .yt-uix-hovercard-card-border, #c4-header-bg-container, #channel-subheader, .guide-section-separator{
+																																																																																																																																																																																																																														    
+																																																																																																																																																																																																																														          border-color: #000000 !important;
+																																																																																																																																																																																																																															   
+																																																																																																																																																																																																																															     }
+																																																																																																																																																																																																																															      
+																																																																																																																																																																																																																															        .c4-checklist-item-card .yt-uix-clickcard-card-body{
+																																																																																																																																																																																																																																 
+																																																																																																																																																																																																																																       padding: 0px !important;
+																																																																																																																																																																																																																																        
+																																																																																																																																																																																																																																	  }
+																																																																																																																																																																																																																																	   
+																																																																																																																																																																																																																																	     .yt-uix-card-border-arrow, .yt-uix-card-body-arrow{
+																																																																																																																																																																																																																																	      
+																																																																																																																																																																																																																																	            display: none !important;
+																																																																																																																																																																																																																																		     
+																																																																																																																																																																																																																																		       }
+																																																																																																																																																																																																																																		        
+																																																																																																																																																																																																																																			  .branded-page-v2-subnav-container, .branded-page-v2-body #channel-feed-post-form{
+																																																																																																																																																																																																																																			   
+																																																																																																																																																																																																																																			         border-color: #000000 !important;
+																																																																																																																																																																																																																																				  
+																																																																																																																																																																																																																																				    }
+																																																																																																																																																																																																																																				     
+																																																																																																																																																																																																																																				       #channel-feed-post-form textarea{
+																																																																																																																																																																																																																																				        
+																																																																																																																																																																																																																																					      background-color: #000000 !important;
+																																																																																																																																																																																																																																					       
+																																																																																																																																																																																																																																					             color: #FFFFFF !important;
+																																																																																																																																																																																																																																						      
+																																																																																																																																																																																																																																						        }
+																																																																																																																																																																																																																																							 
+																																																																																																																																																																																																																																							   .yt-uix-form-input-select, .yt-uix-form-input-text, .yt-uix-form-input-textarea{
+																																																																																																																																																																																																																																							    
+																																																																																																																																																																																																																																							          border-color: #000 !important;
+																																																																																																																																																																																																																																								   
+																																																																																																																																																																																																																																								     }
+																																																																																																																																																																																																																																								      
+																																																																																																																																																																																																																																								        .yt-uix-form-input-fluid .yt-uix-form-input-text, .yt-uix-form-input-fluid .yt-uix-form-input-textarea{
+																																																																																																																																																																																																																																									 
+																																																																																																																																																																																																																																									       background-color: #000000 !important;
+																																																																																																																																																																																																																																									        
+																																																																																																																																																																																																																																										      color: #FFFFFF !important;
+																																																																																																																																																																																																																																										       
+																																																																																																																																																																																																																																										         }
+																																																																																																																																																																																																																																											  
+																																																																																																																																																																																																																																											    .yt-uix-form-input-select-content{
+																																																																																																																																																																																																																																											     
+																																																																																																																																																																																																																																											           background-color: #000000 !important;
+																																																																																																																																																																																																																																												    
+																																																																																																																																																																																																																																												          color: #FFFFFF !important;
+																																																																																																																																																																																																																																													   
+																																																																																																																																																																																																																																													         text-shadow: none !important;
+																																																																																																																																																																																																																																														  
+																																																																																																																																																																																																																																														    }
+																																																																																																																																																																																																																																														     
+																																																																																																																																																																																																																																														       .channel-header .secondary-header-contents{
+																																																																																																																																																																																																																																														        
+																																																																																																																																																																																																																																															      background-color: #444444 !important;
+																																																																																																																																																																																																																																															       
+																																																																																																																																																																																																																																															             border-color: #000000 !important;
+																																																																																																																																																																																																																																																      
+																																																																																																																																																																																																																																																        }
+																																																																																																																																																																																																																																																	 
+																																																																																																																																																																																																																																																	   .secondary-header-contents .nav-text{
+																																																																																																																																																																																																																																																	    
+																																																																																																																																																																																																																																																	          color: #FFFFFF !important;
+																																																																																																																																																																																																																																																		   
+																																																																																																																																																																																																																																																		     }
+																																																																																																																																																																																																																																																		      
+																																																																																																																																																																																																																																																		        .site-left-aligned .feed-item-container .compact-shelf .yt-uix-shelfslider-next{
+																																																																																																																																																																																																																																																			 
+																																																																																																																																																																																																																																																			       right: -16px !important;
+																																																																																																																																																																																																																																																			        
+																																																																																																																																																																																																																																																				      border: 1px solid #000000 !important;
+																																																																																																																																																																																																																																																				       
+																																																																																																																																																																																																																																																				             height: 230px !important;
+																																																																																																																																																																																																																																																					      
+																																																																																																																																																																																																																																																					            top: -16px !important;
+																																																																																																																																																																																																																																																						     
+																																																																																																																																																																																																																																																						       }
+																																																																																																																																																																																																																																																						        
+																																																																																																																																																																																																																																																							  .site-left-aligned .compact-shelf.feeds-mode .yt-uix-shelfslider-prev{
+																																																																																																																																																																																																																																																							   
+																																																																																																																																																																																																																																																							         left: -16px !important;
+																																																																																																																																																																																																																																																								  
+																																																																																																																																																																																																																																																								        border: 1px solid #000000 !important;
+																																																																																																																																																																																																																																																									 
+																																																																																																																																																																																																																																																									       height: 230px !important;
+																																																																																																																																																																																																																																																									        
+																																																																																																																																																																																																																																																										      top: -16px !important;
+																																																																																																																																																																																																																																																										       
+																																																																																																																																																																																																																																																										         }
+																																																																																																																																																																																																																																																											  
+																																																																																																																																																																																																																																																											    .branded-page-v2-primary-col .branded-page-box{
+																																																																																																																																																																																																																																																											     
+																																																																																																																																																																																																																																																											           border-color: #000000 !important;
+																																																																																																																																																																																																																																																												    
+																																																																																																																																																																																																																																																												      }
+																																																																																																																																																																																																																																																												       
+																																																																																																																																																																																																																																																												         .yt-lockup-playlist-item{
+																																																																																																																																																																																																																																																													  
+																																																																																																																																																																																																																																																													        border-color: #000000 !important;
+																																																																																																																																																																																																																																																														 
+																																																																																																																																																																																																																																																														   }
+																																																																																																																																																																																																																																																														    
+																																																																																																																																																																																																																																																														      .feed-author-bubble{
+																																																																																																																																																																																																																																																														       
+																																																																																																																																																																																																																																																														             background-image: url("") !important;
+																																																																																																																																																																																																																																																															      
+																																																																																																																																																																																																																																																															            border: 1px solid #000000 !important;
+																																																																																																																																																																																																																																																																     
+																																																																																																																																																																																																																																																																           height: 28px !important;
+																																																																																																																																																																																																																																																																	    
+																																																																																																																																																																																																																																																																	          width: 28px !important;
+																																																																																																																																																																																																																																																																		   
+																																																																																																																																																																																																																																																																		         box-shadow: 0px 0px 10px #000000 !important;
+																																																																																																																																																																																																																																																																			  
+																																																																																																																																																																																																																																																																			    }
+																																																																																																																																																																																																																																																																			     
+																																																																																																																																																																																																																																																																			       .feed-author-bubble .feed-item-author{
+																																																																																																																																																																																																																																																																			        
+																																																																																																																																																																																																																																																																				      margin: 0px !important;
+																																																																																																																																																																																																																																																																				       
+																																																																																																																																																																																																																																																																				         }
+																																																																																																																																																																																																																																																																					     .yt-picker-header{
+																																																																																																																																																																																																																																																																					             border-color: #000000 !important;
+																																																																																																																																																																																																																																																																						         }
+																																																																																																																																																																																																																																																																							     .yt-picker-content strong{
+																																																																																																																																																																																																																																																																							             color: #FFFFFF !important;
+																																																																																																																																																																																																																																																																								         }
+																																																																																																																																																																																																																																																																									    
+																																																																																																																																																																																																																																																																									        #dialog, .header, .search-panel .suggestions-container{
+																																																																																																																																																																																																																																																																										        background-color: #333333 !important;
+																																																																																																																																																																																																																																																																											        border-color: #000000 !important;
+																																																																																																																																																																																																																																																																												       
+																																																																																																																																																																																																																																																																												           }
+																																																																																																																																																																																																																																																																													      
+																																																																																																																																																																																																																																																																													          .jfk-textinput{
+																																																																																																																																																																																																																																																																														          background-color: #000000 !important;
+																																																																																																																																																																																																																																																																															          border-color: #111111 !important;
+																																																																																																																																																																																																																																																																																          color: #FFFFFF !important;
+																																																																																																																																																																																																																																																																																	      }
+																																																																																																																																																																																																																																																																																	         
+																																																																																																																																																																																																																																																																																		     #help{
+																																																																																																																																																																																																																																																																																		             border: 1px solid #000 !important;
+																																																																																																																																																																																																																																																																																			         }
+																																																																																																																																																																																																																																																																																				     #content{
+																																																																																																																																																																																																																																																																																				             background-color: #222 !important;
+																																																																																																																																																																																																																																																																																					         }
+																																																																																																																																																																																																																																																																																						  
+																																																																																																																																																																																																																																																																																						     
+																																																																																																																																																																																																																																																																																						     }

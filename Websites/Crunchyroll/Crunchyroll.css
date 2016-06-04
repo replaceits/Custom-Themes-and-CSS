@@ -1,0 +1,97 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("crunchyroll.com"){
+  body.main-page{
+      background-color: #222 !important;
+        }
+	  #template_container, #header_beta, .portrait-element, #store_items li{
+	      background-color: #444 !important;
+	        }
+		  .main-tabs.cf .left.selected, .sub-tabs.cf, #tabs, #main_content_white, .white-wrapper, .paginator-lite-disabled, .paginator-lite, .paginator-lite-selected, .comments .more-replies{
+		      background-color: #444 !important;
+		          box-shadow:none;
+			      
+			        }
+				  .guestbook-sort-bar{
+				      background-color: #333;
+				          border: 0px solid #000;
+					    }
+					      .guestbook-list{
+					          border: 1px solid #000;
+						    }
+						      li.reply .guestbook-list.cf{
+						          border-bottom: none;
+							    }
+							      .main-tabs.cf .left.selected{
+							          border-radius: 15px 15px 0px 0px !important;
+								    }
+								      #showmedia.cf.new_layout #sidebar.right {
+								          margin-top: 600px;
+									    }
+									      
+									        /*1.6452442159383033419023136246787
+										  950x 577
+										    */
+										      
+										        #template_body, #footer_menu, .main-tabs.cf, .main-tabs.cf .left, ul.topbar-nav-sub li.dim a:hover, ul.topbar-nav-sub li.highlight a{
+											    background-color: #333 !important;
+											        color: #FFF;
+												  }
+												    ul.topbar-nav-sub li a{
+												        padding: 4px 8px 3px;
+													  }
+													    #slidebox,.showmedia-submenu.white-wrapper.cf.container-shadow.small-margin-bottom,.orange-button.button.default-button.medium-button.button-padding.right,.news-twitter,.news-share-bar,.episode-progress-bar,.share-buttons.cf,.random.left,#message_box, #ecom_deal_img_div, #social_media, #footer_country_flag, .new-footer, .welcome-featured-media, .large-margin-bottom iframe{
+													        display: none !important;
+														  }
+														    #template_container.template-container.no-adskin{
+														        padding-top: 10px !important;
+															  }
+															    .fb-like-button{
+															        visibility: hidden  !important;
+																  }
+																    .welcome-news-title{
+																        color: #61B7CF !important;
+																	  }
+																	    a{
+																	        color: #95E5FF !important;
+																		  }
+																		    .welcome-countdown-timer, .paginator-lite-selected{
+																		        
+																			    color: #EEE;
+																			      }
+																			        .welcome-countdown-details{
+																				    color: #EEE;
+																				      }
+																				        .welcome-countdown-name{
+																					    color: #95E5FF !important;
+																					      }
+																					        #container.cf{
+																						    padding-left: 10px;
+																						      }
+																						        input[type="text"], input[type="email"], input[type="password"], textarea,.comments .more-replies,.guestbook-sort-bar,.comments .boxtitle,.search-submit-button,.news-search input[type="text"],ul.news .body,.news-footer-more,ul.news-abbr,ul.news li.news-item,ul.news .news-date-label,.old-template-body .cr-header,ul.news-top-stories-row li a,.text-input[type="text"], .text-input[type="password"], textarea.text-input,.guestbook-list.cf, .guestbook li,.paginator-lite-disabled, .paginator-lite, .paginator-lite-selected,img,img.portrait,.new-template-body h3,.header-searchbox-submit,#header_searchpanel_beta #header_search_input,#welcome_left,.welcome-recent-link,.welcome-countdown-day,#sidebar,.welcome-forum-category, .welcome-crnews-item, .welcome-news-item, .welcome-title-list h1, .welcome-block h1{
+																							    border-color: #000 !important;
+																							        border-style: solid;
+																								  }
+																								    .comments .more-replies{
+																								        border: 1px solid #000;
+																									    border-bottom: none;
+																									      }
+																									        .guestbook li{
+																										    border-bottom: none;
+																										      }
+																										        .series{
+																											    color: #95E5FF !important;
+																											      }
+																											        #header_searchpanel_beta #header_search_input,.name, .ordernum, .released{
+																												    color: #BBB !important;
+																												      }
+																												        a.welcome-news-views{
+																													    background: #222;
+																													      }
+																													        .news-bottom-nav,.show-all-simulcasts-button, a.default-button, span.default-button, input.default-button, .default-button{
+																														    background: -moz-linear-gradient(center top , #505050 15%, #444 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+																														        border-color: #000 !important;
+																															    text-shadow: none;
+																															        color: #95E5FF !important;
+																																  }
+																																  }

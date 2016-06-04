@@ -1,0 +1,24 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+ 
+ @-moz-document domain("www.studyblue.com"){
+   .e #cards .card.blur .back{
+       color: #000 !important;
+           text-shadow: none !important;
+	       -moz-user-select: text !important;
+	         }
+		   .card-ad{
+		       display: none !important;
+		         }
+			   #cards .card::after, .cards-wrap .card::after{
+			       background: rgba(0,0,0,0) !important;
+			         }
+				   .block-wrap-banner.updated-banner.positioned-banner, .content-block-title, .header, .testimonial-rotator, .footer-home-wrap{
+				       display: none !important;
+				         }
+					   #cards .card.card-margin, .cards-wrap .card.card-margin{
+					       margin-bottom: 0px !important;
+					         }
+						   .content-block-body.content-block-bg{
+						       background: #333 !important;
+						         }
+							 }
